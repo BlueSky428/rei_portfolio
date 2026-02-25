@@ -89,8 +89,8 @@
           {
             "text": "Email",
             "japanese_text": "メール",
-            "url": "https://mail.google.com/mail/?view=cm&to=rei.fujimoto320@gmail.com",
-            "japanese_url": "https://mail.google.com/mail/?view=cm&to=rei.fujimoto320@gmail.com",
+            "url": "https://mail.google.com/mail/?view=cm&to=rei.fujimoto.jpn@gmail.com",
+            "japanese_url": "https://mail.google.com/mail/?view=cm&to=rei.fujimoto.jpn@gmail.com",
             "external": true
           },
           {
@@ -135,8 +135,8 @@
     ]
   },
   "contact_info": {
-    "email": "rei.fujimoto320@gmail.com",
-    "japanese_email": "rei.fujimoto320@gmail.com",
+    "email": "rei.fujimoto.jpn@gmail.com",
+    "japanese_email": "rei.fujimoto.jpn@gmail.com",
     "location": "Tokyo, Japan",
     "japanese_location": "東京都、日本",
     "timezone": "JST (UTC+9)",
