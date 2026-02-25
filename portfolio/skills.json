@@ -1,0 +1,404 @@
+{
+  "section": "skills",
+  "title": "Skills",
+  "japanese_title": "スキル",
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "japanese_name": "フロントエンド開発",
+      "description": "Creating beautiful and responsive user interfaces",
+      "japanese_description": "美しくレスポンシブなユーザーインターフェースの作成",
+      "icon": "paint-brush",
+      "color": "#3B82F6",
+      "skills": [
+        {
+          "name": "React",
+          "japanese_name": "React",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 4,
+          "description": "Building complex single-page applications with hooks and context",
+          "japanese_description": "フックとコンテキストを使用した複雑なシングルページアプリケーションの構築",
+          "projects_used": 15,
+          "certifications": ["React Developer Certification"]
+        },
+        {
+          "name": "Vue.js",
+          "japanese_name": "Vue.js",
+          "level": "Expert",
+          "japanese_level": "上級",
+          "years_experience": 3,
+          "description": "Progressive framework for building user interfaces",
+          "japanese_description": "ユーザーインターフェース構築のためのプログレッシブフレームワーク",
+          "projects_used": 8,
+          "certifications": []
+        },
+        {
+          "name": "TypeScript",
+          "japanese_name": "TypeScript",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 3,
+          "description": "Type-safe JavaScript development",
+          "japanese_description": "型安全なJavaScript開発",
+          "projects_used": 20,
+          "certifications": ["TypeScript Fundamentals"]
+        },
+        {
+          "name": "Next.js",
+          "japanese_name": "Next.js",
+          "level": "Expert",
+          "japanese_level": "上級",
+          "years_experience": 2,
+          "description": "Full-stack React framework with SSR",
+          "japanese_description": "SSR対応のフルスタックReactフレームワーク",
+          "projects_used": 5,
+          "certifications": []
+        },
+        {
+          "name": "Tailwind CSS",
+          "japanese_name": "Tailwind CSS",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 2,
+          "description": "Utility-first CSS framework",
+          "japanese_description": "ユーティリティファーストのCSSフレームワーク",
+          "projects_used": 12,
+          "certifications": []
+        },
+        {
+          "name": "Sass/SCSS",
+          "japanese_name": "Sass/SCSS",
+          "level": "Expert",
+          "japanese_level": "上級",
+          "years_experience": 4,
+          "description": "CSS preprocessor for scalable styles",
+          "japanese_description": "スケーラブルなスタイルのためのCSSプリプロセッサ",
+          "projects_used": 18,
+          "certifications": []
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend Development",
+      "japanese_name": "バックエンド開発",
+      "description": "Building robust server-side applications and APIs",
+      "japanese_description": "堅牢なサーバーサイドアプリケーションとAPIの構築",
+      "icon": "server",
+      "color": "#10B981",
+      "skills": [
+        {
+          "name": "Node.js",
+          "japanese_name": "Node.js",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 4,
+          "description": "JavaScript runtime for server-side development",
+          "japanese_description": "サーバーサイド開発のためのJavaScriptランタイム",
+          "projects_used": 15,
+          "certifications": ["Node.js Developer Certification"]
+        },
+        {
+          "name": "Express.js",
+          "japanese_name": "Express.js",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 4,
+          "description": "Web application framework for Node.js",
+          "japanese_description": "Node.jsのためのWebアプリケーションフレームワーク",
+          "projects_used": 12,
+          "certifications": []
+        },
+        {
+          "name": "Laravel",
+          "japanese_name": "Laravel",
+          "level": "Expert",
+          "japanese_level": "上級",
+          "years_experience": 3,
+          "description": "PHP web application framework",
+          "japanese_description": "PHP Webアプリケーションフレームワーク",
+          "projects_used": 8,
+          "certifications": ["Laravel Developer Certification"]
+        },
+        {
+          "name": "Python",
+          "japanese_name": "Python",
+          "level": "Advanced",
+          "japanese_level": "中級",
+          "years_experience": 2,
+          "description": "Versatile programming language for web and data",
+          "japanese_description": "Webとデータのための汎用プログラミング言語",
+          "projects_used": 5,
+          "certifications": ["Python Fundamentals"]
+        },
+        {
+          "name": "PostgreSQL",
+          "japanese_name": "PostgreSQL",
+          "level": "Expert",
+          "japanese_level": "上級",
+          "years_experience": 3,
+          "description": "Advanced open-source relational database",
+          "japanese_description": "高度なオープンソースリレーショナルデータベース",
+          "projects_used": 10,
+          "certifications": []
+        },
+        {
+          "name": "MongoDB",
+          "japanese_name": "MongoDB",
+          "level": "Advanced",
+          "japanese_level": "中級",
+          "years_experience": 2,
+          "description": "NoSQL document database",
+          "japanese_description": "NoSQLドキュメントデータベース",
+          "projects_used": 6,
+          "certifications": ["MongoDB Basics"]
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & Cloud",
+      "japanese_name": "DevOps・クラウド",
+      "description": "Deployment, monitoring, and infrastructure management",
+      "japanese_description": "デプロイメント、監視、インフラストラクチャ管理",
+      "icon": "cloud",
+      "color": "#F59E0B",
+      "skills": [
+        {
+          "name": "Docker",
+          "japanese_name": "Docker",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 3,
+          "description": "Containerization platform for applications",
+          "japanese_description": "アプリケーションのためのコンテナ化プラットフォーム",
+          "projects_used": 12,
+          "certifications": ["Docker Certified Associate"]
+        },
+        {
+          "name": "Kubernetes",
+          "japanese_name": "Kubernetes",
+          "level": "Advanced",
+          "japanese_level": "中級",
+          "years_experience": 2,
+          "description": "Container orchestration platform",
+          "japanese_description": "コンテナオーケストレーションプラットフォーム",
+          "projects_used": 4,
+          "certifications": []
+        },
+        {
+          "name": "AWS",
+          "japanese_name": "AWS",
+          "level": "Advanced",
+          "japanese_level": "中級",
+          "years_experience": 2,
+          "description": "Amazon Web Services cloud platform",
+          "japanese_description": "Amazon Web Servicesクラウドプラットフォーム",
+          "projects_used": 8,
+          "certifications": ["AWS Cloud Practitioner"]
+        },
+        {
+          "name": "CI/CD",
+          "japanese_name": "CI/CD",
+          "level": "Intermediate",
+          "japanese_level": "上級",
+          "years_experience": 3,
+          "description": "Continuous Integration and Deployment",
+          "japanese_description": "継続的インテグレーションとデプロイメント",
+          "projects_used": 15,
+          "certifications": []
+        },
+        {
+          "name": "Linux",
+          "japanese_name": "Linux",
+          "level": "Advanced",
+          "japanese_level": "中級",
+          "years_experience": 3,
+          "description": "Unix-like operating system administration",
+          "japanese_description": "Unixライクなオペレーティングシステムの管理",
+          "projects_used": 10,
+          "certifications": []
+        },
+        {
+          "name": "Nginx",
+          "japanese_name": "Nginx",
+          "level": "Advanced",
+          "japanese_level": "中級",
+          "years_experience": 2,
+          "description": "High-performance web server and reverse proxy",
+          "japanese_description": "高性能Webサーバーとリバースプロキシ",
+          "projects_used": 8,
+          "certifications": []
+        }
+      ]
+    },
+    {
+      "id": "ai_integrations",
+      "name": "AI & Integrations",
+      "japanese_name": "AI・統合",
+      "description": "Artificial intelligence and third-party integrations",
+      "japanese_description": "人工知能とサードパーティ統合",
+      "icon": "brain",
+      "color": "#8B5CF6",
+      "skills": [
+        {
+          "name": "OpenAI API",
+          "japanese_name": "OpenAI API",
+          "level": "Expert",
+          "japanese_level": "中級",
+          "years_experience": 1,
+          "description": "Integration with GPT models for AI features",
+          "japanese_description": "AI機能のためのGPTモデルとの統合",
+          "projects_used": 3,
+          "certifications": []
+        },
+        {
+          "name": "Machine Learning",
+          "japanese_name": "機械学習",
+          "level": "Advanced",
+          "japanese_level": "初級",
+          "years_experience": 1,
+          "description": "Basic machine learning concepts and implementation",
+          "japanese_description": "基本的な機械学習の概念と実装",
+          "projects_used": 2,
+          "certifications": []
+        },
+        {
+          "name": "REST APIs",
+          "japanese_name": "REST API",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 4,
+          "description": "Designing and consuming RESTful web services",
+          "japanese_description": "RESTful Webサービスの設計と利用",
+          "projects_used": 20,
+          "certifications": []
+        },
+        {
+          "name": "GraphQL",
+          "japanese_name": "GraphQL",
+          "level": "Advanced",
+          "japanese_level": "中級",
+          "years_experience": 2,
+          "description": "Query language for APIs",
+          "japanese_description": "APIのためのクエリ言語",
+          "projects_used": 4,
+          "certifications": []
+        },
+        {
+          "name": "WebSocket",
+          "japanese_name": "WebSocket",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 3,
+          "description": "Real-time communication protocol",
+          "japanese_description": "リアルタイム通信プロトコル",
+          "projects_used": 6,
+          "certifications": []
+        },
+        {
+          "name": "Payment Gateways",
+          "japanese_name": "決済ゲートウェイ",
+          "level": "Intermediate",
+          "japanese_level": "中級",
+          "years_experience": 2,
+          "description": "Stripe, PayPal, and other payment integrations",
+          "japanese_description": "Stripe、PayPal、その他の決済統合",
+          "projects_used": 5,
+          "certifications": []
+        }
+      ]
+    }
+  ],
+  "skill_levels": [
+    {
+      "level": "Expert",
+      "japanese_level": "エキスパート",
+      "description": "7+ years experience, can lead projects and mentor others",
+      "japanese_description": "7年以上の経験、プロジェクトをリードし他者をメンターできる",
+      "color": "#10B981",
+      "percentage": 90
+    },
+    {
+      "level": "Advanced",
+      "japanese_level": "上級",
+      "description": "3-4 years experience, can work independently on complex tasks",
+      "japanese_description": "3-4年の経験、複雑なタスクを独立して作業できる",
+      "color": "#3B82F6",
+      "percentage": 75
+    },
+    {
+      "level": "Intermediate",
+      "japanese_level": "中級",
+      "description": "1-2 years experience, can work with guidance on most tasks",
+      "japanese_description": "1-2年の経験、ほとんどのタスクでガイダンスと共に作業できる",
+      "color": "#F59E0B",
+      "percentage": 60
+    },
+    {
+      "level": "Beginner",
+      "japanese_level": "初級",
+      "description": "Less than 1 year experience, learning and growing",
+      "japanese_description": "1年未満の経験、学習と成長中",
+      "color": "#EF4444",
+      "percentage": 30
+    }
+  ],
+  "learning_goals": [
+    {
+      "skill": "Rust",
+      "japanese_skill": "Rust",
+      "reason": "System programming and performance-critical applications",
+      "japanese_reason": "システムプログラミングとパフォーマンス重視のアプリケーション",
+      "target_date": "2026 Q3"
+    },
+    {
+      "skill": "WebAssembly",
+      "japanese_skill": "WebAssembly",
+      "reason": "High-performance web applications",
+      "japanese_reason": "高性能Webアプリケーション",
+      "target_date": "2026 Q4"
+    },
+    {
+      "skill": "Advanced AI/ML",
+      "japanese_skill": "高度なAI/ML",
+      "reason": "Building intelligent applications and automation",
+      "japanese_reason": "インテリジェントアプリケーションと自動化の構築",
+      "target_date": "2027 Q1"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Cloud Practitioner",
+      "japanese_name": "AWSクラウドプラクティショナー",
+      "issuer": "Amazon Web Services",
+      "date": "2024-06",
+      "credential_id": "AWS-CLF-2024-001",
+      "valid_until": "2027-06",
+      "description": "Foundational understanding of AWS Cloud concepts",
+      "japanese_description": "AWSクラウド概念の基礎理解"
+    },
+    {
+      "name": "React Developer Certification",
+      "japanese_name": "React開発者認定",
+      "issuer": "Meta",
+      "date": "2024-03",
+      "credential_id": "META-REACT-2024-001",
+      "valid_until": "2027-03",
+      "description": "Advanced React development skills and best practices",
+      "japanese_description": "高度なReact開発スキルとベストプラクティス"
+    },
+    {
+      "name": "Docker Certified Associate",
+      "japanese_name": "Docker認定アソシエイト",
+      "issuer": "Docker Inc.",
+      "date": "2022-11",
+      "credential_id": "DCA-2022-001",
+      "valid_until": "2026-11",
+      "description": "Containerization and orchestration expertise",
+      "japanese_description": "コンテナ化とオーケストレーションの専門知識"
+    }
+  ]
+}

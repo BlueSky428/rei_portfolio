@@ -1,0 +1,328 @@
+{
+  "section": "contact",
+  "title": "Contact",
+  "japanese_title": "お問い合わせ",
+  "description": "Let's connect and discuss your next project",
+  "japanese_description": "つながって、あなたの次のプロジェクトについて話し合いましょう",
+  "contact_form": {
+    "fields": [
+      {
+        "id": "name",
+        "label": "Name",
+        "japanese_label": "お名前",
+        "type": "text",
+        "required": true,
+        "japanese_required": "必須",
+        "placeholder": "Your full name",
+        "japanese_placeholder": "お名前を入力してください"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "japanese_label": "メールアドレス",
+        "type": "email",
+        "required": true,
+        "japanese_required": "必須",
+        "placeholder": "your.email@example.com",
+        "japanese_placeholder": "your.email@example.com"
+      },
+      {
+        "id": "company",
+        "label": "Company",
+        "japanese_label": "会社名",
+        "type": "text",
+        "required": false,
+        "japanese_required": "任意",
+        "placeholder": "Your company name",
+        "japanese_placeholder": "会社名を入力してください"
+      },
+      {
+        "id": "subject",
+        "label": "Subject",
+        "japanese_label": "件名",
+        "type": "select",
+        "required": true,
+        "japanese_required": "必須",
+        "options": [
+          {
+            "value": "project_inquiry",
+            "label": "Project Inquiry",
+            "japanese_label": "プロジェクトのご相談"
+          },
+          {
+            "value": "collaboration",
+            "label": "Collaboration",
+            "japanese_label": "コラボレーション"
+          },
+          {
+            "value": "speaking",
+            "label": "Speaking Engagement",
+            "japanese_label": "講演依頼"
+          },
+          {
+            "value": "mentoring",
+            "label": "Mentoring",
+            "japanese_label": "メンタリング"
+          },
+          {
+            "value": "other",
+            "label": "Other",
+            "japanese_label": "その他"
+          }
+        ]
+      },
+      {
+        "id": "message",
+        "label": "Message",
+        "japanese_label": "メッセージ",
+        "type": "textarea",
+        "required": true,
+        "japanese_required": "必須",
+        "placeholder": "Tell me about your project or how I can help...",
+        "japanese_placeholder": "プロジェクトについて、またはどのようにお手伝いできるかお聞かせください...",
+        "rows": 6
+      },
+      {
+        "id": "budget",
+        "label": "Budget Range",
+        "japanese_label": "予算範囲",
+        "type": "select",
+        "required": false,
+        "japanese_required": "任意",
+        "options": [
+          {
+            "value": "under_10k",
+            "label": "Under $10,000",
+            "japanese_label": "100万円未満"
+          },
+          {
+            "value": "10k_25k",
+            "label": "$10,000 - $25,000",
+            "japanese_label": "100万円 - 250万円"
+          },
+          {
+            "value": "25k_50k",
+            "label": "$25,000 - $50,000",
+            "japanese_label": "250万円 - 500万円"
+          },
+          {
+            "value": "50k_100k",
+            "label": "$50,000 - $100,000",
+            "japanese_label": "500万円 - 1000万円"
+          },
+          {
+            "value": "over_100k",
+            "label": "Over $100,000",
+            "japanese_label": "1000万円以上"
+          },
+          {
+            "value": "discuss",
+            "label": "Let's discuss",
+            "japanese_label": "相談したい"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "label": "Project Timeline",
+        "japanese_label": "プロジェクト期間",
+        "type": "select",
+        "required": false,
+        "japanese_required": "任意",
+        "options": [
+          {
+            "value": "asap",
+            "label": "ASAP",
+            "japanese_label": "できるだけ早く"
+          },
+          {
+            "value": "1_month",
+            "label": "Within 1 month",
+            "japanese_label": "1ヶ月以内"
+          },
+          {
+            "value": "2_3_months",
+            "label": "2-3 months",
+            "japanese_label": "2-3ヶ月"
+          },
+          {
+            "value": "3_6_months",
+            "label": "3-6 months",
+            "japanese_label": "3-6ヶ月"
+          },
+          {
+            "value": "6_months_plus",
+            "label": "6+ months",
+            "japanese_label": "6ヶ月以上"
+          },
+          {
+            "value": "flexible",
+            "label": "Flexible",
+            "japanese_label": "柔軟"
+          }
+        ]
+      }
+    ],
+    "submit_button": {
+      "text": "Send Message",
+      "japanese_text": "メッセージを送信",
+      "loading_text": "Sending...",
+      "japanese_loading_text": "送信中...",
+      "success_text": "Message sent successfully!",
+      "japanese_success_text": "メッセージが正常に送信されました！"
+    },
+    "validation": {
+      "required_field": "This field is required",
+      "japanese_required_field": "この項目は必須です",
+      "invalid_email": "Please enter a valid email address",
+      "japanese_invalid_email": "有効なメールアドレスを入力してください",
+      "message_too_short": "Message must be at least 10 characters",
+      "japanese_message_too_short": "メッセージは10文字以上で入力してください"
+    }
+  },
+  "contact_info": {
+    "email": {
+      "address": "rei.fujimoto320@gmail.com",
+      "japanese_address": "rei.fujimoto320@gmail.com",
+      "label": "Email",
+      "japanese_label": "メール",
+      "description": "For project inquiries and general questions",
+      "japanese_description": "プロジェクトのご相談と一般的な質問用",
+      "icon": "mail"
+    },
+    "location": {
+      "address": "Tokyo, Japan",
+      "japanese_address": "東京都、日本",
+      "label": "Location",
+      "japanese_label": "所在地",
+      "description": "Based in Tokyo, available for remote work",
+      "japanese_description": "東京在住、リモートワーク対応",
+      "icon": "map-pin"
+    },
+    "timezone": {
+      "zone": "JST (UTC+9)",
+      "japanese_zone": "JST (UTC+9)",
+      "label": "Timezone",
+      "japanese_label": "タイムゾーン",
+      "description": "Japan Standard Time",
+      "japanese_description": "日本標準時",
+      "icon": "clock"
+    },
+    "telegram": {
+      "username": "@kintsugi320",
+      "japanese_username": "@kintsugi320",
+      "url": "https://t.me/kintsugi320",
+      "japanese_url": "https://t.me/kintsugi320",
+      "label": "Telegram",
+      "japanese_label": "Telegram",
+      "description": "Quick messaging and direct communication",
+      "japanese_description": "クイックメッセージと直接コミュニケーション",
+      "icon": "telegram"
+    }
+  },
+  "social_links": [
+    {
+      "platform": "Telegram",
+      "japanese_platform": "Telegram",
+      "url": "https://t.me/kintsugi320",
+      "japanese_url": "https://t.me/kintsugi320",
+      "username": "@kintsugi320",
+      "japanese_username": "@kintsugi320",
+      "description": "Quick messaging and direct communication",
+      "japanese_description": "クイックメッセージと直接コミュニケーション",
+      "icon": "telegram",
+      "color": "#0088cc"
+    }
+  ],
+  "availability": {
+    "status": "Available",
+    "japanese_status": "利用可能",
+    "description": "Currently accepting new projects and collaborations",
+    "japanese_description": "現在、新しいプロジェクトとコラボレーションを受け付けています",
+    "response_time": "Within 24 hours",
+    "japanese_response_time": "24時間以内",
+    "working_hours": "Monday-Friday, 9AM-6PM JST",
+    "japanese_working_hours": "月曜日-金曜日、午前9時-午後6時（日本時間）",
+    "timezone": "JST (UTC+9)",
+    "japanese_timezone": "JST (UTC+9)"
+  },
+  "services": [
+    {
+      "id": "web_development",
+      "name": "Web Development",
+      "japanese_name": "Web開発",
+      "description": "Full-stack web applications with modern technologies",
+      "japanese_description": "モダンなテクノロジーを使用したフルスタックWebアプリケーション",
+      "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL"],
+      "japanese_technologies": ["React", "Node.js", "TypeScript", "PostgreSQL"],
+      "icon": "code"
+    },
+    {
+      "id": "mobile_apps",
+      "name": "Mobile App Development",
+      "japanese_name": "モバイルアプリ開発",
+      "description": "Cross-platform mobile applications for iOS and Android",
+      "japanese_description": "iOSとAndroid向けのクロスプラットフォームモバイルアプリケーション",
+      "technologies": ["React Native", "Expo", "TypeScript"],
+      "japanese_technologies": ["React Native", "Expo", "TypeScript"],
+      "icon": "smartphone"
+    },
+    {
+      "id": "consulting",
+      "name": "Technical Consulting",
+      "japanese_name": "技術コンサルティング",
+      "description": "Architecture design and technical strategy guidance",
+      "japanese_description": "アーキテクチャ設計と技術戦略ガイダンス",
+      "technologies": ["Microservices", "Cloud Architecture", "DevOps"],
+      "japanese_technologies": ["マイクロサービス", "クラウドアーキテクチャ", "DevOps"],
+      "icon": "lightbulb"
+    },
+    {
+      "id": "mentoring",
+      "name": "Development Mentoring",
+      "japanese_name": "開発メンタリング",
+      "description": "One-on-one guidance for developers at any level",
+      "japanese_description": "あらゆるレベルの開発者向けの1対1ガイダンス",
+      "technologies": ["Code Review", "Career Guidance", "Best Practices"],
+      "japanese_technologies": ["コードレビュー", "キャリアガイダンス", "ベストプラクティス"],
+      "icon": "users"
+    }
+  ],
+  "testimonials_preview": [
+    {
+      "quote": "Rei Fujimoto's ability to bridge Japanese business practices with modern development methodologies is truly remarkable.",
+      "japanese_quote": "藤本麗の日本のビジネス慣行とモダンな開発手法を結びつける能力は本当に素晴らしいです。",
+      "author": "Yuki Tanaka, CTO at TechFlow Solutions",
+      "japanese_author": "田中ゆき、テックフローソリューションズCTO"
+    }
+  ],
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "japanese_title": "プロジェクトを始める準備はできましたか？",
+    "description": "Let's discuss how I can help bring your ideas to life",
+    "japanese_description": "あなたのアイデアを実現するためにどのようにお手伝いできるか話し合いましょう",
+    "button_text": "Get In Touch",
+    "japanese_button_text": "お問い合わせ",
+    "button_link": "#contact-form"
+  },
+  "faq": [
+    {
+      "question": "What is your typical project timeline?",
+      "japanese_question": "典型的なプロジェクト期間はどのくらいですか？",
+      "answer": "Project timelines vary depending on scope and complexity. Simple websites typically take 2-4 weeks, while complex applications can take 3-6 months. I'll provide a detailed timeline during our initial consultation.",
+      "japanese_answer": "プロジェクト期間は範囲と複雑さによって異なります。シンプルなWebサイトは通常2-4週間、複雑なアプリケーションは3-6ヶ月かかります。初回相談時に詳細な期間を提供します。"
+    },
+    {
+      "question": "Do you work with international clients?",
+      "japanese_question": "国際的なクライアントとお仕事をしますか？",
+      "answer": "Yes! I work with clients worldwide and am comfortable with remote collaboration. I'm fluent in both English and Japanese, making communication seamless regardless of your location.",
+      "japanese_answer": "はい！世界中のクライアントとお仕事をしており、リモートコラボレーションに慣れています。英語と日本語の両方に堪能なので、場所に関係なくコミュニケーションがスムーズです。"
+    },
+    {
+      "question": "What technologies do you specialize in?",
+      "japanese_question": "どのような技術を専門としていますか？",
+      "answer": "I specialize in modern web technologies including React, Node.js, TypeScript, and cloud platforms like AWS. I also have experience with mobile development using React Native and various databases including PostgreSQL and MongoDB.",
+      "japanese_answer": "React、Node.js、TypeScript、AWSなどのクラウドプラットフォームを含むモダンなWeb技術を専門としています。React Nativeを使用したモバイル開発や、PostgreSQLやMongoDBなどの様々なデータベースの経験もあります。"
+    }
+  ]
+}

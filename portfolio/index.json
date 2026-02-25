@@ -1,0 +1,307 @@
+{
+  "portfolio": {
+    "title": "Rei Fujimoto Portfolio",
+    "japanese_title": "藤本麗ポートフォリオ",
+    "description": "Software Engineer & Full-Stack Developer specializing in modern web technologies and Japanese cultural integration",
+    "japanese_description": "モダンなWeb技術と日本文化統合を専門とするソフトウェアエンジニア・フルスタック開発者",
+    "version": "2.1.0",
+    "japanese_version": "2.1.0",
+    "last_updated": "2026-02-15",
+    "japanese_last_updated": "2026年2月15日",
+    "author": "Rei Fujimoto",
+    "japanese_author": "藤本麗",
+    "email": "rei.fujimoto320@gmail.com",
+    "japanese_email": "rei.fujimoto320@gmail.com",
+    "location": "Tokyo, Japan",
+    "japanese_location": "東京都、日本",
+    "timezone": "JST (UTC+9)",
+    "japanese_timezone": "JST (UTC+9)"
+  },
+  "sections": [
+    {
+      "id": "home",
+      "name": "Home",
+      "japanese_name": "ホーム",
+      "file": "home.json",
+      "description": "Hero section with rotating ocean backgrounds and main call-to-action",
+      "japanese_description": "回転する海洋背景とメインのコールトゥアクションを含むヒーローセクション",
+      "order": 1,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "about",
+      "name": "About Me",
+      "japanese_name": "自己紹介",
+      "file": "about.json",
+      "description": "Personal introduction, professional values, and cultural background",
+      "japanese_description": "個人的な紹介、プロフェッショナルな価値観、文化的背景",
+      "order": 2,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "experience",
+      "name": "Experience",
+      "japanese_name": "経歴",
+      "file": "experience.json",
+      "description": "Career timeline with 8 years of professional experience",
+      "japanese_description": "8年のプロフェッショナル経験を含むキャリアタイムライン",
+      "order": 3,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "japanese_name": "制作実績",
+      "file": "projects.json",
+      "description": "Portfolio of 6 featured projects with detailed case studies",
+      "japanese_description": "詳細なケーススタディを含む6つの注目プロジェクトのポートフォリオ",
+      "order": 4,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "skills",
+      "name": "Skills",
+      "japanese_name": "スキル",
+      "file": "skills.json",
+      "description": "Technical skills categorized by Frontend, Backend, DevOps, and AI/Integrations",
+      "japanese_description": "フロントエンド、バックエンド、DevOps、AI/統合で分類された技術スキル",
+      "order": 5,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "achievements",
+      "name": "Achievements & Certifications",
+      "japanese_name": "実績・資格",
+      "file": "achievements.json",
+      "description": "Professional awards, certifications, publications, and speaking engagements",
+      "japanese_description": "プロフェッショナルな賞、認定、出版物、講演",
+      "order": 6,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "testimonials",
+      "name": "Testimonials",
+      "japanese_name": "推薦の言葉",
+      "file": "testimonials.json",
+      "description": "Client and colleague feedback highlighting professional capabilities",
+      "japanese_description": "プロフェッショナルな能力を強調するクライアントと同僚のフィードバック",
+      "order": 7,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "blog",
+      "name": "Blog & Insights",
+      "japanese_name": "ブログ・記事",
+      "file": "blog.json",
+      "description": "Technical articles on software engineering and Japanese IT culture",
+      "japanese_description": "ソフトウェアエンジニアリングと日本のIT文化に関する技術記事",
+      "order": 8,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "gallery",
+      "name": "Gallery",
+      "japanese_name": "ギャラリー",
+      "file": "gallery.json",
+      "description": "Ocean-themed and Japan-inspired photography collection",
+      "japanese_description": "海洋テーマと日本インスパイアの写真コレクション",
+      "order": 9,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "japanese_name": "お問い合わせ",
+      "file": "contact.json",
+      "description": "Contact form, social links, and service information",
+      "japanese_description": "お問い合わせフォーム、ソーシャルリンク、サービス情報",
+      "order": 10,
+      "visible": true,
+      "japanese_visible": true
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "japanese_name": "フッター",
+      "file": "footer.json",
+      "description": "Site-wide footer with links, contact info, and additional resources",
+      "japanese_description": "リンク、連絡先情報、追加リソースを含むサイト全体のフッター",
+      "order": 11,
+      "visible": true,
+      "japanese_visible": true
+    }
+  ],
+  "features": {
+    "bilingual": true,
+    "japanese_bilingual": true,
+    "responsive_design": true,
+    "japanese_responsive_design": true,
+    "dark_mode": true,
+    "japanese_dark_mode": true,
+    "accessibility": true,
+    "japanese_accessibility": true,
+    "seo_optimized": true,
+    "japanese_seo_optimized": true,
+    "performance_optimized": true,
+    "japanese_performance_optimized": true
+  },
+  "technologies": {
+    "frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    "japanese_frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    "backend": ["Node.js", "Express.js", "PostgreSQL", "MongoDB"],
+    "japanese_backend": ["Node.js", "Express.js", "PostgreSQL", "MongoDB"],
+    "deployment": ["Vercel", "AWS", "Docker", "Kubernetes"],
+    "japanese_deployment": ["Vercel", "AWS", "Docker", "Kubernetes"],
+    "tools": ["Git", "VS Code", "Figma", "Adobe Creative Suite"],
+    "japanese_tools": ["Git", "VS Code", "Figma", "Adobe Creative Suite"]
+  },
+  "content_stats": {
+    "total_sections": 11,
+    "japanese_total_sections": "11",
+    "total_projects": 6,
+    "japanese_total_projects": "6",
+    "total_blog_posts": 3,
+    "japanese_total_blog_posts": "3",
+    "total_photos": 42,
+    "japanese_total_photos": "42",
+    "total_testimonials": 6,
+    "japanese_total_testimonials": "6",
+    "total_skills": 25,
+    "japanese_total_skills": "25",
+    "total_certifications": 5,
+    "japanese_total_certifications": "5"
+  },
+  "navigation": {
+    "main_menu": [
+      {
+        "text": "Home",
+        "japanese_text": "ホーム",
+        "url": "#home",
+        "japanese_url": "#home"
+      },
+      {
+        "text": "About",
+        "japanese_text": "自己紹介",
+        "url": "#about",
+        "japanese_url": "#about"
+      },
+      {
+        "text": "Experience",
+        "japanese_text": "経歴",
+        "url": "#experience",
+        "japanese_url": "#experience"
+      },
+      {
+        "text": "Projects",
+        "japanese_text": "制作実績",
+        "url": "#projects",
+        "japanese_url": "#projects"
+      },
+      {
+        "text": "Skills",
+        "japanese_text": "スキル",
+        "url": "#skills",
+        "japanese_url": "#skills"
+      },
+      {
+        "text": "Contact",
+        "japanese_text": "お問い合わせ",
+        "url": "#contact",
+        "japanese_url": "#contact"
+      }
+    ],
+    "secondary_menu": [
+      {
+        "text": "Blog",
+        "japanese_text": "ブログ",
+        "url": "#blog",
+        "japanese_url": "#blog"
+      },
+      {
+        "text": "Gallery",
+        "japanese_text": "ギャラリー",
+        "url": "#gallery",
+        "japanese_url": "#gallery"
+      },
+      {
+        "text": "Resume",
+        "japanese_text": "履歴書",
+        "url": "/resume/tatsuya-kuroda-resume.pdf",
+        "japanese_url": "/resume/tatsuya-kuroda-resume-jp.pdf"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Rei Fujimoto - Software Engineer & Full-Stack Developer",
+    "japanese_title": "藤本麗 - ソフトウェアエンジニア・フルスタック開発者",
+    "description": "Experienced software engineer specializing in modern web technologies, Japanese cultural integration, and innovative solutions. Based in Tokyo, Japan.",
+    "japanese_description": "モダンなWeb技術、日本文化統合、革新的なソリューションを専門とする経験豊富なソフトウェアエンジニア。東京在住。",
+    "keywords": [
+      "software engineer",
+      "full stack developer",
+      "react developer",
+      "node.js developer",
+      "japanese developer",
+      "tokyo developer",
+      "web development",
+      "mobile app development",
+      "microservices",
+      "typescript"
+    ],
+    "japanese_keywords": [
+      "ソフトウェアエンジニア",
+      "フルスタック開発者",
+      "React開発者",
+      "Node.js開発者",
+      "日本人開発者",
+      "東京開発者",
+      "Web開発",
+      "モバイルアプリ開発",
+      "マイクロサービス",
+      "TypeScript"
+    ],
+    "og_image": "/images/og/tatsuya-kuroda-og.jpg",
+    "japanese_og_image": "/images/og/tatsuya-kuroda-og-jp.jpg",
+    "twitter_card": "summary_large_image",
+    "japanese_twitter_card": "summary_large_image"
+  },
+  "analytics": {
+    "google_analytics": "GA4-XXXXXXXXX",
+    "japanese_google_analytics": "GA4-XXXXXXXXX",
+    "hotjar": "HOTJAR-XXXXXXXXX",
+    "japanese_hotjar": "HOTJAR-XXXXXXXXX",
+    "privacy_compliant": true,
+    "japanese_privacy_compliant": true
+  },
+  "performance": {
+    "target_load_time": "< 2s",
+    "japanese_target_load_time": "< 2秒",
+    "lighthouse_score": "95+",
+    "japanese_lighthouse_score": "95+",
+    "accessibility_score": "100",
+    "japanese_accessibility_score": "100",
+    "best_practices_score": "100",
+    "japanese_best_practices_score": "100",
+    "seo_score": "100",
+    "japanese_seo_score": "100"
+  },
+  "maintenance": {
+    "last_content_update": "2026-02-15",
+    "japanese_last_content_update": "2026年2月15日",
+    "next_review_date": "2026-05-15",
+    "japanese_next_review_date": "2026年5月15日",
+    "content_manager": "Rei Fujimoto",
+    "japanese_content_manager": "藤本麗",
+    "backup_frequency": "Daily",
+    "japanese_backup_frequency": "毎日"
+  }
+}

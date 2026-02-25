@@ -1,0 +1,590 @@
+{
+  "section": "projects",
+  "title": "Projects",
+  "japanese_title": "制作実績",
+  "projects": [
+    {
+      "id": 1,
+      "name": "mi-6 Recruit",
+      "japanese_name": "mi-6 リクルート",
+      "category": "Recruitment",
+      "japanese_category": "リクルート",
+      "status": "Completed",
+      "japanese_status": "完了",
+      "year": "2020",
+      "duration": "6 months",
+      "japanese_duration": "6ヶ月",
+      "description": "A comprehensive recruitment platform with microservices architecture, featuring real-time inventory management and AI-powered recommendations",
+      "japanese_description": "マイクロサービスアーキテクチャを採用した包括的なECプラットフォーム。リアルタイム在庫管理とAI搭載のレコメンデーション機能を特徴とする",
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "Kubernetes",
+        "Next.js"
+      ],
+      "features": [
+        "Real-time inventory tracking",
+        "AI-powered product recommendations",
+        "Multi-language support (EN/JP/CN)",
+        "Mobile-responsive design",
+        "Payment gateway integration",
+        "Admin dashboard with analytics",
+        "AI-powered job recommendations"
+      ],
+      "japanese_features": [
+        "リアルタイム在庫追跡",
+        "AI搭載商品レコメンデーション",
+        "多言語対応（英語/日本語/中国語）",
+        "モバイルレスポンシブデザイン",
+        "決済ゲートウェイ統合",
+        "分析機能付き管理ダッシュボード",
+        "AI搭載ジョブレコメンデーション"
+      ],
+      "challenges": "Implementing real-time synchronization across microservices while maintaining data consistency, and AI-powered job recommendations",
+      "japanese_challenges": "データの一貫性を保ちながらマイクロサービス間のリアルタイム同期を実装",
+      "solutions": "Used event-driven architecture with Apache Kafka for reliable message queuing and eventual consistency, and AI-powered job recommendations",
+      "japanese_solutions": "Apache Kafkaを使用したイベント駆動アーキテクチャで信頼性の高いメッセージキューイングと結果整合性を実現",
+      "results": [
+        "40% increase in conversion rate",
+        "99.9% uptime achieved",
+        "50% reduction in page load time",
+        "Handled 10,000+ concurrent users",
+        "AI-powered job recommendations"
+      ],
+      "japanese_results": [
+        "コンバージョン率40%向上",
+        "99.9%の稼働率を達成",
+        "ページ読み込み時間50%短縮",
+        "10,000人以上の同時ユーザーに対応"
+      ],
+      "images": [
+        "/images/projects/project-1.png"
+      ],
+      "live_url": "https://recruit.mi-6.co.jp/"
+    },
+    {
+      "id": 2,
+      "name": "ジェイエムシー株式会社 Recruit Site",
+      "japanese_name": "ジェイエムシー株式会社 Recruit Site",
+      "category": "Productivity",
+      "japanese_category": "生産性ツール",
+      "status": "Completed",
+      "japanese_status": "完了",
+      "year": "2020",
+      "duration": "4 months",
+      "japanese_duration": "4ヶ月",
+      "description": "A comprehensive recruitment platform with microservices architecture, featuring real-time inventory management and AI-powered recommendations",
+      "japanese_description": "日本の禅哲学にインスパイアされたミニマリストなプロジェクト管理ツール。タスク管理におけるシンプルさとマインドフルネスに焦点を当てる",
+      "technologies": [
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+        "JWT",
+        "Docker",
+        "React/Next.js"
+      ],
+      "features": [
+        "Kanban board with drag-and-drop",
+        "Real-time collaboration",
+        "AI-powered job recommendations",
+        "Time tracking with Pomodoro technique",
+        "Team chat integration",
+        "Customizable themes"
+      ],
+      "japanese_features": [
+        "ドラッグ&ドロップ対応のカンバンボード",
+        "リアルタイムコラボレーション",
+        "マインドフルネスリマインダー",
+        "ポモドーロテクニックによる時間追跡",
+        "チームチャット統合",
+        "カスタマイズ可能なテーマ"
+      ],
+      "challenges": "Creating an intuitive interface that promotes focus while maintaining powerful project management features",
+      "japanese_challenges": "強力なプロジェクト管理機能を維持しながら、集中を促進する直感的なインターフェースの作成",
+      "solutions": "Applied progressive disclosure and minimal design principles with carefully crafted user flows",
+      "japanese_solutions": "段階的開示とミニマルデザインの原則を適用し、慎重に設計されたユーザーフローを実装",
+      "results": [
+        "85% user satisfaction rate",
+        "60% increase in team productivity",
+        "30% reduction in project completion time",
+        "500+ active users"
+      ],
+      "japanese_results": [
+        "85%のユーザー満足度",
+        "チーム生産性60%向上",
+        "プロジェクト完了時間30%短縮",
+        "500人以上のアクティブユーザー"
+      ],
+      "images": [
+        "/images/projects/project-2.png"
+      ],
+      "live_url": "https://recruit.jmc-ltd.co.jp/"
+    },
+    {
+      "id": 3,
+      "name": "Misshelly",
+      "japanese_name": "Misshelly",
+      "category": "Mobile App",
+      "japanese_category": "モバイルアプリ",
+      "status": "Completed",
+      "japanese_status": "完了",
+      "year": "2021",
+      "duration": "3 months",
+      "japanese_duration": "3ヶ月",
+      "description": "A beautiful weather application with Japanese aesthetics, featuring cherry blossom animations and traditional weather forecasting methods",
+      "japanese_description": "日本の美学を取り入れた美しい天気アプリケーション。桜のアニメーションと伝統的な天気予報方法を特徴とする",
+      "technologies": [
+        "React Native",
+        "Expo",
+        "OpenWeatherMap API",
+        "Lottie",
+        "AsyncStorage",
+        "React/Next.js"
+      ],
+      "features": [
+        "Real-time inventory tracking",
+        "AI-powered job recommendations",
+        "Multi-language support (EN/JP/CN)",
+        "Mobile-responsive design",
+        "Payment gateway integration",
+        "Admin dashboard with analytics",
+        "AI-powered job recommendations"
+      ],
+      "japanese_features": [
+        "リアルタイム在庫追跡",
+        "AI搭載ジョブレコメンデーション",
+        "多言語対応（英語/日本語/中国語）",
+        "モバイルレスポンシブデザイン",
+        "決済ゲートウェイ統合",
+        "分析機能付き管理ダッシュボード",
+        "AI搭載ジョブレコメンデーション"
+      ],
+      "challenges": "Creating smooth animations that work across different devices while maintaining performance",
+      "japanese_challenges": "パフォーマンスを維持しながら、異なるデバイスで動作するスムーズなアニメーションの作成",
+      "solutions": "Used Lottie animations with optimized JSON files and implemented device-specific performance scaling",
+      "japanese_solutions": "最適化されたJSONファイルでLottieアニメーションを使用し、デバイス固有のパフォーマンススケーリングを実装",
+      "results": [
+        "4.8/5 App Store rating",
+        "50,000+ downloads",
+        "Featured in 'Apps We Love' section",
+        "95% user retention rate"
+      ],
+      "japanese_results": [
+        "App Store評価4.8/5",
+        "50,000回以上のダウンロード",
+        "「お気に入りアプリ」セクションで紹介",
+        "95%のユーザー継続率"
+      ],
+      "images": [
+        "/images/projects/project-3.png"
+      ],
+      "demo_url": "https://misshelly.com/"
+    },
+    {
+      "id": 4,
+      "name": "5IVE GROUP",
+      "japanese_name": "5IVE GROUP",
+      "category": "Life",
+      "japanese_category": "教育",
+      "status": "Completed",
+      "japanese_status": "進行中",
+      "year": "2022",
+      "duration": "1 month",
+      "japanese_duration": "1ヶ月",
+      "description": "A comprehensive life management platform with microservices architecture, featuring real-time inventory management and AI-powered recommendations",
+      "japanese_description": "日本の文化的メタファーとゲーミフィケーションを通じてプログラミングを教えるインタラクティブなコーディング教育プラットフォーム",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Vercel",
+        "React/Next.js"
+      ],
+      "features": [
+        "Real-time inventory tracking",
+        "AI-powered job recommendations",
+        "Multi-language support (EN/JP/CN)",
+        "Mobile-responsive design",
+        "Payment gateway integration",
+        "Admin dashboard with analytics",
+        "AI-powered job recommendations"
+      ],
+      "japanese_features": [
+        "インタラクティブなコーディングチャレンジ",
+        "日本の文化的学習メタファー",
+        "進捗追跡と実績システム",
+        "ピアコードレビューシステム",
+        "AI搭載コード提案",
+        "多言語対応"
+      ],
+      "challenges": "Creating engaging educational content that bridges programming concepts with Japanese culture",
+      "japanese_challenges": "プログラミング概念と日本文化を結びつける魅力的な教育コンテンツの作成",
+      "solutions": "Developed a unique curriculum that uses Japanese martial arts principles to explain programming concepts",
+      "japanese_solutions": "プログラミング概念を説明するために日本の武道の原則を使用するユニークなカリキュラムを開発",
+      "results": [
+        "500+ active learners",
+        "90% course completion rate",
+        "Featured in TechCrunch Japan",
+        "Partnership with 3 coding bootcamps"
+      ],
+      "japanese_results": [
+        "500人以上のアクティブラーナー",
+        "90%のコース完了率",
+        "TechCrunch Japanで紹介",
+        "3つのコーディングブートキャンプとのパートナーシップ"
+      ],
+      "images": [
+        "/images/projects/project-4.png"
+      ],
+      "live_url": "https://recruit.five-group.co.jp/"
+    },
+    {
+      "id": 5,
+      "name": "Dance",
+      "japanese_name": "Dance",
+      "category": "Cultural Heritage",
+      "japanese_category": "文化遺産",
+      "status": "Completed",
+      "japanese_status": "進行中",
+      "year": "2023",
+      "duration": "3 months",
+      "japanese_duration": "1ヶ月",
+      "description": "It’s a Japanese vocational school in Kobe offering professional training in dance, music, and performance.",
+      "japanese_description": "これは、神戸にあるダンス・音楽・パフォーマンスの専門的な教育を提供する専門学校です。",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS S3",
+        "ImageMagick",
+        "Next.js"
+      ],
+      "features": [
+        "Professional Dance & Music Training",
+        "Experienced Instructors & Industry Professionals",
+        "Overseas Study & Exchange Opportunities",
+        "Multi-Genre Dance Curriculum (Hip-Hop, Jazz, Ballet, etc.)",
+        "Performance & Stage Production Experience",
+        "State-of-the-Art Facilities & Studios",
+        "Career Support & Industry Connections"
+      ],
+      "japanese_features": [
+        "専門的なダンス・音楽教育",
+        "現役で活躍する講師・業界プロによる指導",
+        "海外留学・交流プログラム",
+        "多ジャンル対応のダンスカリキュラム（ヒップホップ、ジャズ、バレエなど）",
+        "舞台・ステージ制作を通じた実践的な経験",
+        "最新設備を備えたスタジオ・施設",
+        "最新設備を備えたスタジオ・施設"
+      ],
+      "challenges": "Creating a platform that connects students with industry professionals and provides a comprehensive learning experience",
+      "japanese_challenges": "学生と業界プロフェッショナルをつなげ、総合的な学習体験を提供するプラットフォームの作成",
+      "solutions": "Developed custom scanning techniques and 3D rendering algorithms to capture paper texture and translucency",
+      "japanese_solutions": "紙の質感と半透明性を捉えるためのカスタムスキャニング技術と3Dレンダリングアルゴリズムを開発",
+      "results": [
+        "1,000+ digitized paper samples",
+        "Partnership with 5 museums",
+        "UNESCO cultural preservation recognition",
+        "Used by 20+ educational institutions"
+      ],
+      "japanese_results": [
+        "1,000以上のデジタル化された紙サンプル",
+        "5つの博物館とのパートナーシップ",
+        "UNESCO文化保存認定",
+        "20以上の教育機関で使用"
+      ],
+      "images": [
+        "/images/projects/project-5.png"
+      ],
+      "live_url": "https://www.music.ac.jp/dance/"
+    },
+    {
+      "id": 6,
+      "name": "通信制大学 星槎大学",
+      "japanese_name": "通信制大学 星槎大学",
+      "category": "Children's Education",
+      "japanese_category": "開発者ツール",
+      "status": "Completed",
+      "japanese_status": "進行中",
+      "year": "2024",
+      "duration": "4 months",
+      "japanese_duration": "4ヶ月",
+      "description": "Seisa University is a distance-learning university in Japan offering programs in inclusive education, welfare, sports & physical expression, and global/local communication, with a focus on “living together” in diversity.",
+      "japanese_description": "星槎大学は、日本で通信制の大学として、「共生」を重視しながら、教育・福祉・スポーツ身体表現・グローカルコミュニケーションなどの学問分野を提供しています。",
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL",
+        "WebSocket",
+        "Chart.js",
+        "Docker"
+      ],
+      "features": [
+        "Visual bug lifecycle management",
+        "Kintsugi-inspired UI design",
+        "Seamless team collaboration tools",
+        "Intelligent bug pattern analysis",
+        "Automated testing integration",
+        "Real-time performance impact tracking"
+      ],
+      "japanese_features": [
+        "視覚的なバグライフサイクル管理",
+        "金継ぎから着想を得たUIデザイン",
+        "シームレスなチームコラボレーションツール",
+        "高度なバグパターン分析",
+        "自動テストの統合",
+        "リアルタイムのパフォーマンス影響追跡"
+      ],
+      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
+      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
+      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
+      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "results": [
+        "40% faster bug resolution time",
+        "85% developer satisfaction rate",
+        "60% reduction in bug recurrence",
+        "Adopted by 10+ development teams"
+      ],
+      "japanese_results": [
+        "バグ解決時間40%短縮",
+        "85%の開発者満足度",
+        "バグ再発率60%削減",
+        "10以上の開発チームで採用"
+      ],
+      "images": [
+        "/images/projects/project-6.png"
+      ],
+      "live_url": "https://seisa.ac.jp/"
+    },
+    {
+      "id": 7,
+      "name": "Lie:verse Liars",
+      "japanese_name": "公式サイト",
+      "category": "Children's Education",
+      "japanese_category": "開発者ツール",
+      "status": "Completed",
+      "japanese_status": "進行中",
+      "year": "2024",
+      "duration": "4 months",
+      "japanese_duration": "4ヶ月",
+      "description": "Lie:verse Liars is the official site for a multimedia / character-story IP (novels, merchandise, radio show) set in a world where lies and truths are switched.",
+      "japanese_description": "「Lie:verse Liars（リーバース・ライアーズ）」は、嘘と真実が入れ替わった世界を舞台に、小説、商品展開、ラジオ番組などを扱うマルチメディアキャラクター作品の公式サイトです。",
+      "technologies": [
+        "Vue.js",
+        "Nuxt.js",
+        "MySQL",
+        "Tailwind CSS",
+        "Vercel",
+        "AWS"
+      ],
+      "features": [
+        "Visual bug lifecycle management",
+        "Kintsugi-inspired UI design",
+        "Seamless team collaboration tools",
+        "Advanced bug pattern analysis",
+        "Automated testing integration",
+        "Real-time performance impact tracking"
+      ],
+      "japanese_features": [
+        "視覚的なバグライフサイクル管理",
+        "金継ぎをモチーフにしたUIデザイン",
+        "シームレスなチームコラボレーションツール",
+        "高度なバグパターン分析",
+        "自動テスト統合",
+        "リアルタイムでのパフォーマンス影響追跡"
+      ],
+      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
+      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
+      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
+      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "results": [
+        "40% faster bug resolution time",
+        "85% developer satisfaction rate",
+        "60% reduction in bug recurrence",
+        "Adopted by 10+ development teams"
+      ],
+      "japanese_results": [
+        "バグ解決時間40%短縮",
+        "85%の開発者満足度",
+        "バグ再発率60%削減",
+        "10以上の開発チームで採用"
+      ],
+      "images": [
+        "/images/projects/project-7.png"
+      ],
+      "live_url": "https://www.lieverse-liars.jp/"
+    },
+    {
+      "id": 8,
+      "name": "マグノリア･ホワイト",
+      "japanese_name": "マグノリア･ホワイト",
+      "category": "Children's Education",
+      "japanese_category": "開発者ツール",
+      "status": "Completed",
+      "japanese_status": "進行中",
+      "year": "2025",
+      "duration": "4 months",
+      "japanese_duration": "4ヶ月",
+      "description": "Tapple is a popular Japanese dating/matching-app by CyberAgent that helps users meet potential romantic partners based on shared hobbies and interests, with safety features like identity verification and 24/7 support.",
+      "japanese_description": "「タップル」は、趣味や関心をきっかけに出会いたい人々をつなげる、サイバーエージェント運営の人気マッチングアプリで、本人確認や24時間365日のサポートなど安心・安全機能が備わっています。",
+      "technologies": [
+        "Wordpress",
+        "PHP",
+        "MySQL",
+        "AWS",
+        "Nginx",
+        "SSL"
+      ],
+      "features": [
+        "Visual bug lifecycle management",
+        "Kintsugi-inspired UI design",
+        "Seamless team collaboration tools",
+        "Advanced bug pattern analysis",
+        "Automated testing integration",
+        "Real-time performance impact tracking"
+      ],
+      "japanese_features": [
+        "視覚的なバグライフサイクル管理",
+        "金継ぎをモチーフにしたUIデザイン",
+        "シームレスなチームコラボレーションツール",
+        "高度なバグパターン分析",
+        "自動テスト統合",
+        "リアルタイムのパフォーマンス影響追跡"
+      ],
+      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
+      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
+      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
+      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "results": [
+        "40% faster bug resolution time",
+        "85% developer satisfaction rate",
+        "60% reduction in bug recurrence",
+        "Adopted by 10+ development teams"
+      ],
+      "japanese_results": [
+        "バグ解決時間40%短縮",
+        "85%の開発者満足度",
+        "バグ再発率60%削減",
+        "10以上の開発チームで採用"
+      ],
+      "images": [
+        "/images/projects/project-8.png"
+      ],
+      "live_url": "https://tapple.me/"
+    },
+    {
+      "id": 9,
+      "name": "タップル – 恋活･婚活マッチングアプリ【公式】",
+      "japanese_name": "タップル – 恋活･婚活マッチングアプリ【公式】",
+      "category": "Children's Education",
+      "japanese_category": "開発者ツール",
+      "status": "Completed",
+      "japanese_status": "進行中",
+      "year": "2025",
+      "duration": "4 months",
+      "japanese_duration": "4ヶ月",
+      "description": "MAGNOLIA WHITE is an import-dress salon in Japan that selects the trendiest bridal gowns from New York, London, Paris, etc., and offers custom coordination for customers’ special moments.",
+      "japanese_description": "MAGNOLIA WHITE（マグノリア・ホワイト）は、ニューヨーク・ロンドン・パリなどの最旬インポートウエディングドレスをセレクトし、人生の特別な日のためにお客様に合ったコーディネートを提案するインポートドレスサロンです。",
+      "technologies": [
+        "Wordpress",
+        "PHP",
+        "MySQL",
+        "AWS",
+        "Nginx",
+        "SSL"
+      ],
+      "features": [
+        "Visual bug lifecycle management",
+        "Kintsugi-inspired UI design",
+        "Seamless team collaboration tools",
+        "Advanced bug pattern analysis",
+        "Automated testing integration",
+        "Real-time performance impact tracking"
+      ],
+      "japanese_features": [
+        "視覚的なバグライフサイクル管理",
+        "金継ぎにインスパイアされたUIデザイン",
+        "シームレスなチームコラボレーションツール",
+        "高度なバグパターン分析",
+        "自動テスト統合",
+        "リアルタイムのパフォーマンス影響追跡"
+      ],
+      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
+      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
+      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
+      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "results": [
+        "40% faster bug resolution time",
+        "85% developer satisfaction rate",
+        "60% reduction in bug recurrence",
+        "Adopted by 10+ development teams"
+      ],
+      "japanese_results": [
+        "バグ解決時間40%短縮",
+        "85%の開発者満足度",
+        "バグ再発率60%削減",
+        "10以上の開発チームで採用"
+      ],
+      "images": [
+        "/images/projects/project-9.png"
+      ],
+      "live_url": "https://jp.magnolia-white.com/"
+    }
+  ],
+  "project_categories": [
+    {
+      "name": "E-commerce",
+      "japanese_name": "ECサイト",
+      "count": 1,
+      "description": "Online shopping platforms and digital commerce solutions"
+    },
+    {
+      "name": "Productivity",
+      "japanese_name": "生産性ツール",
+      "count": 1,
+      "description": "Tools to enhance workflow and team collaboration"
+    },
+    {
+      "name": "Mobile App",
+      "japanese_name": "モバイルアプリ",
+      "count": 1,
+      "description": "Native and cross-platform mobile applications"
+    },
+    {
+      "name": "Education",
+      "japanese_name": "教育",
+      "count": 1,
+      "description": "Learning platforms and educational technology"
+    },
+    {
+      "name": "Cultural Heritage",
+      "japanese_name": "文化遺産",
+      "count": 1,
+      "description": "Digital preservation and cultural documentation"
+    },
+    {
+      "name": "Developer Tools",
+      "japanese_name": "開発者ツール",
+      "count": 1,
+      "description": "Tools and utilities for software development"
+    }
+  ],
+  "project_stats": {
+    "total_projects": 6,
+    "japanese_total_projects": "6",
+    "completed_projects": 5,
+    "japanese_completed_projects": "5",
+    "in_progress": 1,
+    "japanese_in_progress": "1",
+    "technologies_used": 25,
+    "japanese_technologies_used": "25",
+    "total_users_impacted": "100,000+",
+    "japanese_total_users_impacted": "10万人以上"
+  }
+}

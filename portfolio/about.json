@@ -1,0 +1,100 @@
+{
+  "section": "about",
+  "title": "About Me",
+  "japanese_title": "自己紹介",
+  "profile": {
+    "name": "Rei Fujimoto",
+    "japanese_name": "藤本麗",
+    "title": "Senior Software Engineer",
+    "japanese_title": "シニアソフトウェアエンジニア",
+    "photo_url": "/profile-photo.svg",
+    "location": "Tokyo, Japan",
+    "japanese_location": "東京都"
+  },
+  "introduction": {
+    "english": "I am a dedicated software engineer with over 8 years of experience in developing modern web applications and digital solutions. Based in Tokyo, I specialize in creating clean, efficient code that delivers exceptional user experiences. My approach combines technical expertise with a deep understanding of user needs, ensuring every project meets both functional and aesthetic standards. I believe in continuous learning and staying current with emerging technologies to provide innovative solutions. My goal is to contribute meaningfully to the tech community while maintaining the highest standards of professionalism and quality.",
+    "japanese": "8年以上の経験を持つ献身的なソフトウェアエンジニアです。モダンなWebアプリケーションとデジタルソリューションの開発に従事しています。東京を拠点に、優れたユーザー体験を提供するクリーンで効率的なコードの作成を専門としています。技術的専門知識とユーザーニーズの深い理解を組み合わせ、すべてのプロジェクトが機能性と美的基準の両方を満たすよう努めています。継続的な学習を信条とし、革新的なソリューションを提供するため最新技術の習得に励んでいます。最高水準のプロフェッショナリズムと品質を維持しながら、テックコミュニティに有意義な貢献をすることが目標です。"
+  },
+  "professional_values": [
+    {
+      "title": "Problem-Solving",
+      "japanese_title": "問題解決",
+      "description": "I approach complex challenges with systematic thinking and creative solutions",
+      "japanese_description": "複雑な課題に体系的思考と創造的ソリューションでアプローチします",
+      "icon": "puzzle-piece"
+    },
+    {
+      "title": "Clean Code",
+      "japanese_title": "クリーンコード",
+      "description": "Writing maintainable, readable, and efficient code is my passion",
+      "japanese_description": "保守性、可読性、効率性を兼ね備えたコードを書くことが私の情熱です",
+      "icon": "code"
+    },
+    {
+      "title": "Teamwork",
+      "japanese_title": "チームワーク",
+      "description": "Collaborating effectively with diverse teams to achieve common goals",
+      "japanese_description": "多様なチームと効果的に協力し、共通の目標を達成します",
+      "icon": "users"
+    },
+    {
+      "title": "Continuous Learning",
+      "japanese_title": "継続的学習",
+      "description": "Always staying updated with latest technologies and best practices",
+      "japanese_description": "最新技術とベストプラクティスを常に学び続けています",
+      "icon": "graduation-cap"
+    }
+  ],
+  "personal_highlights": [
+    {
+      "category": "Languages",
+      "japanese_category": "言語",
+      "items": ["Japanese (Native)", "English (Fluent)", "Chinese (Conversational)"],
+      "japanese_items": ["日本語（母語）", "英語（流暢）", "中国語（会話レベル）"]
+    },
+    {
+      "category": "Interests",
+      "japanese_category": "趣味",
+      "items": ["Ocean Photography", "Traditional Japanese Arts", "Open Source Contribution"],
+      "japanese_items": ["海洋写真", "日本の伝統芸術", "オープンソース貢献"]
+    },
+    {
+      "category": "Philosophy",
+      "japanese_category": "哲学",
+      "items": ["Kaizen (Continuous Improvement)", "Omotenashi (Japanese Hospitality)", "Wabi-Sabi (Finding Beauty in Imperfection)"],
+      "japanese_items": ["改善（継続的改善）", "おもてなし（日本のおもてなし精神）", "侘寂（不完全さの中の美しさ）"]
+    }
+  ],
+  "career_mission": {
+    "english": "To bridge the gap between cutting-edge technology and traditional Japanese values, creating software that not only solves problems but also enhances human connection and cultural understanding.",
+    "japanese": "最先端技術と日本の伝統的価値観の架け橋となり、問題を解決するだけでなく、人間のつながりと文化的理解を深めるソフトウェアを作ることです。"
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "Master of Science",
+      "japanese_degree": "修士（情報工学）",
+      "field": "Computer Science",
+      "japanese_field": "コンピュータサイエンス",
+      "university": "Tohoku Institute of Technology",
+      "japanese_university": "東北工業大学",
+      "location": "Sendai, Japan",
+      "japanese_location": "仙台市、日本",
+      "period": "2016 - 2018",
+      "japanese_period": "2016年 - 2018年"
+    },
+    {
+      "id": 2,
+      "degree": "Bachelor of Science",
+      "japanese_degree": "学士（情報工学）",
+      "field": "Information Engineering",
+      "japanese_field": "情報工学",
+      "university": "Hokuriku Regional University",
+      "japanese_university": "北陸地域大学",
+      "location": "Kanazawa, Japan",
+      "japanese_location": "金沢市、日本",
+      "period": "2012 - 2016",
+      "japanese_period": "2012年 - 2016年"
+    }
+  ]
+}

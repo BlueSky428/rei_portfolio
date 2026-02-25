@@ -1,0 +1,86 @@
+{
+  "section": "home",
+  "title": "Rei Fujimoto",
+  "subtitle": "Software Engineer & Full-Stack Developer",
+  "description": "Passionate about creating innovative solutions and bridging technology with Japanese culture",
+  "cta": {
+    "text": "View My Work",
+    "link": "#projects"
+  },
+  "ocean_backgrounds": [
+    {
+      "id": 1,
+      "name": "Clear Blue Sky",
+      "description": "Bright clear blue sky with white clouds",
+      "image_url": "/hero-bg/1.png",
+      "mood": "serene"
+    },
+    {
+      "id": 2,
+      "name": "Sunset Sky",
+      "description": "Golden hour sky with warm orange and pink hues",
+      "image_url": "/hero-bg/2.png",
+      "mood": "warm"
+    },
+    {
+      "id": 3,
+      "name": "Dramatic Clouds",
+      "description": "Dynamic sky with dramatic cloud formations",
+      "image_url": "/hero-bg/3.png",
+      "mood": "dynamic"
+    },
+    {
+      "id": 4,
+      "name": "Azure Horizon",
+      "description": "Beautiful azure blue sky stretching to the horizon",
+      "image_url": "/hero-bg/4.png",
+      "mood": "tropical"
+    },
+    {
+      "id": 5,
+      "name": "Misty Morning Sky",
+      "description": "Soft morning sky with gentle mist and clouds",
+      "image_url": "/hero-bg/5.png",
+      "mood": "mysterious"
+    },
+    {
+      "id": 6,
+      "name": "Cool Blue Sky",
+      "description": "Cool crisp blue sky with scattered clouds",
+      "image_url": "/hero-bg/6.png",
+      "mood": "cool"
+    },
+    {
+      "id": 7,
+      "name": "Starry Night Sky",
+      "description": "Night sky with stars and moon",
+      "image_url": "/hero-bg/7.png",
+      "mood": "peaceful"
+    }
+  ],
+  "rotation_settings": {
+    "interval_seconds": 5,
+    "transition_duration": 1.5,
+    "fade_effect": true
+  },
+  "languages": {
+    "japanese": {
+      "title": "藤本麗",
+      "subtitle": "ソフトウェアエンジニア・フルスタック開発者",
+      "description": "革新的なソリューションの創造と日本文化とテクノロジーの架け橋に情熱を注いでいます",
+      "cta": {
+        "text": "制作実績を見る",
+        "link": "#projects"
+      }
+    },
+    "english": {
+      "title": "Rei Fujimoto",
+      "subtitle": "Software Engineer & Full-Stack Developer",
+      "description": "Passionate about creating innovative solutions and bridging technology with Japanese culture",
+      "cta": {
+        "text": "View My Work",
+        "link": "#projects"
+      }
+    }
+  }
+}

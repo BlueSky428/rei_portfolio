@@ -1,0 +1,95 @@
+{
+  "section": "experience",
+  "title": "Experience",
+  "japanese_title": "経歴",
+  "timeline": [
+    {
+      "id": 1,
+      "period": "2021 - Present",
+      "japanese_period": "2021年 - 現在",
+      "company": "KizunaTech Solutions",
+      "japanese_company": "キズナテックソリューションズ",
+      "position": "Full-Stack Software Engineer",
+      "japanese_position": "フルスタックソフトウェアエンジニア",
+      "location": "Tokyo, Japan",
+      "japanese_location": "東京都、日本",
+      "description": "Designing and building end-to-end web applications from API to frontend, with a focus on clean architecture and DX.",
+      "japanese_description": "APIからフロントエンドまで一貫したWebアプリケーションを設計・実装し、クリーンアーキテクチャと開発者体験の向上に注力。",
+      "key_achievements": [
+        "Led development of a multi-tenant dashboard used daily by enterprise clients.",
+        "Introduced type-safe APIs and shared schemas across frontend and backend.",
+        "Improved deployment reliability by standardizing CI/CD workflows.",
+        "Collaborated closely with designers to refine interaction patterns and microcopy."
+      ],
+      "japanese_achievements": [
+        "エンタープライズクライアントが日常的に利用するマルチテナントダッシュボードの開発をリード。",
+        "フロントエンドとバックエンド間で共有される型安全なAPIとスキーマを導入。",
+        "CI/CDワークフローを標準化し、デプロイの信頼性を向上。",
+        "デザイナーと連携し、インタラクションデザインとマイクロコピーを改善。"
+      ],
+      "technologies": ["TypeScript", "React", "Node.js", "PostgreSQL", "Docker", "AWS"]
+    },
+    {
+      "id": 2,
+      "period": "2018 - 2021",
+      "japanese_period": "2018年 - 2021年",
+      "company": "MiraiSoft Labs",
+      "japanese_company": "ミライソフトラボ",
+      "position": "Junior Software Engineer",
+      "japanese_position": "ジュニアソフトウェアエンジニア",
+      "location": "Sendai, Japan",
+      "japanese_location": "仙台市、日本",
+      "description": "Started career building internal tools and customer-facing features under senior mentorship.",
+      "japanese_description": "シニアエンジニアのメンターシップのもと、社内ツールや顧客向け機能の開発からキャリアをスタート。",
+      "key_achievements": [
+        "Implemented UI components and API integrations for multiple web products.",
+        "Helped modernize legacy codebases while keeping production stable.",
+        "Wrote internal documentation that new team members still rely on.",
+        "Participated in code reviews and learned team development practices."
+      ],
+      "japanese_achievements": [
+        "複数のWebプロダクトにおいてUIコンポーネントとAPI連携を実装。",
+        "本番安定性を維持しながらレガシーコードベースのモダナイズを支援。",
+        "新規メンバーも参照する社内ドキュメントを作成。",
+        "コードレビューに参加し、チーム開発のプラクティスを習得。"
+      ],
+      "technologies": ["JavaScript", "Vue.js", "PHP", "MySQL", "Git", "Linux"]
+    }
+  ],
+  "career_highlights": {
+    "total_experience": "8 years",
+    "japanese_total_experience": "8年",
+    "projects_completed": "50+",
+    "japanese_projects_completed": "50以上",
+    "technologies_mastered": "20+",
+    "japanese_technologies_mastered": "20以上",
+    "team_leadership": "3+ years",
+    "japanese_team_leadership": "3年以上"
+  },
+  "specializations": [
+    {
+      "area": "Frontend Development",
+      "japanese_area": "フロントエンド開発",
+      "expertise_level": "Expert",
+      "japanese_expertise_level": "エキスパート"
+    },
+    {
+      "area": "Backend Development",
+      "japanese_area": "バックエンド開発",
+      "expertise_level": "Advanced",
+      "japanese_expertise_level": "上級"
+    },
+    {
+      "area": "DevOps & Cloud",
+      "japanese_area": "DevOps・クラウド",
+      "expertise_level": "Intermediate",
+      "japanese_expertise_level": "中級"
+    },
+    {
+      "area": "Team Leadership",
+      "japanese_area": "チームリーダーシップ",
+      "expertise_level": "Advanced",
+      "japanese_expertise_level": "上級"
+    }
+  ]
+}
