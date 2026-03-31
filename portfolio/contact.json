@@ -181,6 +181,14 @@
     }
   },
   "contact_info": {
+    "phone": {
+      "number": "+81 70-9358-3639",
+      "japanese_number": "+81 70-9358-3639",
+      "label": "Phone",
+      "japanese_label": "電話",
+      "description": "Voice or SMS during business hours (JST)",
+      "japanese_description": "営業時間内のお電話・SMS（日本時間）"
+    },
     "email": {
       "address": "rei.fujimoto.jpn@gmail.com",
       "japanese_address": "rei.fujimoto.jpn@gmail.com",
@@ -191,12 +199,12 @@
       "icon": "mail"
     },
     "location": {
-      "address": "Tokyo, Japan",
-      "japanese_address": "東京都、日本",
+      "address": "1-1-2 Oshiage, Sumida-ku, Tokyo 131-0045, Japan",
+      "japanese_address": "〒131-0045 東京都墨田区押上1-1-2",
       "label": "Location",
       "japanese_label": "所在地",
-      "description": "Based in Tokyo, available for remote work",
-      "japanese_description": "東京在住、リモートワーク対応",
+      "description": "Sumida-ku, Tokyo - remote-friendly engagements",
+      "japanese_description": "東京都墨田区 - リモート可の案件に対応可能",
       "icon": "map-pin"
     },
     "timezone": {
@@ -209,10 +217,10 @@
       "icon": "clock"
     },
     "telegram": {
-      "username": "@kintsugi320",
-      "japanese_username": "@kintsugi320",
-      "url": "https://t.me/kintsugi320",
-      "japanese_url": "https://t.me/kintsugi320",
+      "username": "@rentsuki320",
+      "japanese_username": "@rentsuki320",
+      "url": "https://t.me/rentsuki320",
+      "japanese_url": "https://t.me/rentsuki320",
       "label": "Telegram",
       "japanese_label": "Telegram",
       "description": "Quick messaging and direct communication",
@@ -224,10 +232,10 @@
     {
       "platform": "Telegram",
       "japanese_platform": "Telegram",
-      "url": "https://t.me/kintsugi320",
-      "japanese_url": "https://t.me/kintsugi320",
-      "username": "@kintsugi320",
-      "japanese_username": "@kintsugi320",
+      "url": "https://t.me/rentsuki320",
+      "japanese_url": "https://t.me/rentsuki320",
+      "username": "@rentsuki320",
+      "japanese_username": "@rentsuki320",
       "description": "Quick messaging and direct communication",
       "japanese_description": "クイックメッセージと直接コミュニケーション",
       "icon": "telegram",
@@ -321,8 +329,8 @@
     {
       "question": "What technologies do you specialize in?",
       "japanese_question": "どのような技術を専門としていますか？",
-      "answer": "I specialize in modern web technologies including React, Node.js, TypeScript, and cloud platforms like AWS. I also have experience with mobile development using React Native and various databases including PostgreSQL and MongoDB.",
-      "japanese_answer": "React、Node.js、TypeScript、AWSなどのクラウドプラットフォームを含むモダンなWeb技術を専門としています。React Nativeを使用したモバイル開発や、PostgreSQLやMongoDBなどの様々なデータベースの経験もあります。"
+      "answer": "I focus on large language models, multimodal AI, semantic search, and production ML routing - primarily in Python (PyTorch) with TypeScript for services and tooling. SQL, vector databases, and cloud-native deployment patterns are part of my day-to-day work.",
+      "japanese_answer": "大規模言語モデル、マルチモーダルAI、セマンティック検索、本番MLルーティングを中心に、Python（PyTorch）とTypeScript（サービス・ツール）を使い分けています。SQL、ベクトルDB、クラウドネイティブなデプロイも日常的な業務です。"
     }
   ]
 }

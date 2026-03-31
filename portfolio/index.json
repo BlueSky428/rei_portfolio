@@ -2,8 +2,8 @@
   "portfolio": {
     "title": "Rei Fujimoto Portfolio",
     "japanese_title": "藤本麗ポートフォリオ",
-    "description": "Software Engineer & Full-Stack Developer specializing in modern web technologies and Japanese cultural integration",
-    "japanese_description": "モダンなWeb技術と日本文化統合を専門とするソフトウェアエンジニア・フルスタック開発者",
+    "description": "AI engineer specializing in LLMs, multimodal systems, semantic search, and production-grade model routing",
+    "japanese_description": "LLM・マルチモーダル・セマンティック検索・本番向けモデルルーティングを専門とするAIエンジニア",
     "version": "2.1.0",
     "japanese_version": "2.1.0",
     "last_updated": "2026-02-15",
@@ -12,8 +12,8 @@
     "japanese_author": "藤本麗",
     "email": "rei.fujimoto.jpn@gmail.com",
     "japanese_email": "rei.fujimoto.jpn@gmail.com",
-    "location": "Tokyo, Japan",
-    "japanese_location": "東京都、日本",
+    "location": "Sumida-ku, Tokyo, Japan",
+    "japanese_location": "東京都墨田区",
     "timezone": "JST (UTC+9)",
     "japanese_timezone": "JST (UTC+9)"
   },
@@ -67,8 +67,8 @@
       "name": "Skills",
       "japanese_name": "スキル",
       "file": "skills.json",
-      "description": "Technical skills categorized by Frontend, Backend, DevOps, and AI/Integrations",
-      "japanese_description": "フロントエンド、バックエンド、DevOps、AI/統合で分類された技術スキル",
+      "description": "AI/ML, languages and data, production platforms, and product-facing intelligent systems",
+      "japanese_description": "AI/ML、言語・データ、本番プラットフォーム、プロダクト志向のインテリジェントシステム",
       "order": 5,
       "visible": true,
       "japanese_visible": true
@@ -155,14 +155,14 @@
     "japanese_performance_optimized": true
   },
   "technologies": {
-    "frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    "japanese_frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    "backend": ["Node.js", "Express.js", "PostgreSQL", "MongoDB"],
-    "japanese_backend": ["Node.js", "Express.js", "PostgreSQL", "MongoDB"],
-    "deployment": ["Vercel", "AWS", "Docker", "Kubernetes"],
-    "japanese_deployment": ["Vercel", "AWS", "Docker", "Kubernetes"],
-    "tools": ["Git", "VS Code", "Figma", "Adobe Creative Suite"],
-    "japanese_tools": ["Git", "VS Code", "Figma", "Adobe Creative Suite"]
+    "frontend": ["React", "TypeScript", "Tailwind CSS"],
+    "japanese_frontend": ["React", "TypeScript", "Tailwind CSS"],
+    "backend": ["Python", "PyTorch", "SQL", "REST APIs", "Vector DBs"],
+    "japanese_backend": ["Python", "PyTorch", "SQL", "REST API", "ベクトルDB"],
+    "deployment": ["Docker", "CI/CD", "Cloud", "Vercel"],
+    "japanese_deployment": ["Docker", "CI/CD", "クラウド", "Vercel"],
+    "tools": ["Git", "Linux", "Shell", "VS Code"],
+    "japanese_tools": ["Git", "Linux", "シェル", "VS Code"]
   },
   "content_stats": {
     "total_sections": 11,
@@ -233,41 +233,42 @@
         "japanese_url": "#gallery"
       },
       {
-        "text": "Resume",
-        "japanese_text": "履歴書",
-        "url": "/resume/tatsuya-kuroda-resume.pdf",
-        "japanese_url": "/resume/tatsuya-kuroda-resume-jp.pdf"
+        "text": "Portfolio site",
+        "japanese_text": "ポートフォリオ",
+        "url": "https://rei-portfolio.alpha.vercel.app/",
+        "japanese_url": "https://rei-portfolio.alpha.vercel.app/",
+        "external": true
       }
     ]
   },
   "seo": {
-    "title": "Rei Fujimoto - Software Engineer & Full-Stack Developer",
-    "japanese_title": "藤本麗 - ソフトウェアエンジニア・フルスタック開発者",
-    "description": "Experienced software engineer specializing in modern web technologies, Japanese cultural integration, and innovative solutions. Based in Tokyo, Japan.",
-    "japanese_description": "モダンなWeb技術、日本文化統合、革新的なソリューションを専門とする経験豊富なソフトウェアエンジニア。東京在住。",
+    "title": "Rei Fujimoto - AI Engineer",
+    "japanese_title": "藤本麗 - AIエンジニア",
+    "description": "AI engineer in Tokyo. LLMs, multimodal AI, semantic search, evaluation, and multi-model routing for production systems. Python, TypeScript, PyTorch.",
+    "japanese_description": "東京のAIエンジニア。本番システム向けのLLM、マルチモーダルAI、セマンティック検索、評価、マルチモデルルーティング。Python、TypeScript、PyTorch。",
     "keywords": [
-      "software engineer",
-      "full stack developer",
-      "react developer",
-      "node.js developer",
-      "japanese developer",
-      "tokyo developer",
-      "web development",
-      "mobile app development",
-      "microservices",
-      "typescript"
+      "AI engineer",
+      "large language models",
+      "LLM",
+      "multimodal AI",
+      "semantic search",
+      "PyTorch",
+      "machine learning",
+      "Tokyo",
+      "Rakuten",
+      "Preferred Networks"
     ],
     "japanese_keywords": [
-      "ソフトウェアエンジニア",
-      "フルスタック開発者",
-      "React開発者",
-      "Node.js開発者",
-      "日本人開発者",
-      "東京開発者",
-      "Web開発",
-      "モバイルアプリ開発",
-      "マイクロサービス",
-      "TypeScript"
+      "AIエンジニア",
+      "大規模言語モデル",
+      "LLM",
+      "マルチモーダルAI",
+      "セマンティック検索",
+      "PyTorch",
+      "機械学習",
+      "東京",
+      "楽天",
+      "PFN"
     ],
     "og_image": "/images/og/tatsuya-kuroda-og.jpg",
     "japanese_og_image": "/images/og/tatsuya-kuroda-og-jp.jpg",

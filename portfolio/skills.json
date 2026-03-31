@@ -4,309 +4,309 @@
   "japanese_title": "スキル",
   "categories": [
     {
-      "id": "frontend",
-      "name": "Frontend Development",
-      "japanese_name": "フロントエンド開発",
-      "description": "Creating beautiful and responsive user interfaces",
-      "japanese_description": "美しくレスポンシブなユーザーインターフェースの作成",
-      "icon": "paint-brush",
-      "color": "#3B82F6",
+      "id": "ai_ml",
+      "name": "AI & Machine Learning",
+      "japanese_name": "AI・機械学習",
+      "description": "LLMs, multimodal systems, evaluation, and intelligent retrieval",
+      "japanese_description": "LLM、マルチモーダル、評価、インテリジェント検索",
+      "icon": "brain",
+      "color": "#8B5CF6",
       "skills": [
         {
-          "name": "React",
-          "japanese_name": "React",
+          "name": "Large Language Models",
+          "japanese_name": "大規模言語モデル",
           "level": "Expert",
           "japanese_level": "エキスパート",
           "years_experience": 4,
-          "description": "Building complex single-page applications with hooks and context",
-          "japanese_description": "フックとコンテキストを使用した複雑なシングルページアプリケーションの構築",
-          "projects_used": 15,
-          "certifications": ["React Developer Certification"]
-        },
-        {
-          "name": "Vue.js",
-          "japanese_name": "Vue.js",
-          "level": "Expert",
-          "japanese_level": "上級",
-          "years_experience": 3,
-          "description": "Progressive framework for building user interfaces",
-          "japanese_description": "ユーザーインターフェース構築のためのプログレッシブフレームワーク",
-          "projects_used": 8,
-          "certifications": []
-        },
-        {
-          "name": "TypeScript",
-          "japanese_name": "TypeScript",
-          "level": "Expert",
-          "japanese_level": "エキスパート",
-          "years_experience": 3,
-          "description": "Type-safe JavaScript development",
-          "japanese_description": "型安全なJavaScript開発",
-          "projects_used": 20,
-          "certifications": ["TypeScript Fundamentals"]
-        },
-        {
-          "name": "Next.js",
-          "japanese_name": "Next.js",
-          "level": "Expert",
-          "japanese_level": "上級",
-          "years_experience": 2,
-          "description": "Full-stack React framework with SSR",
-          "japanese_description": "SSR対応のフルスタックReactフレームワーク",
-          "projects_used": 5,
-          "certifications": []
-        },
-        {
-          "name": "Tailwind CSS",
-          "japanese_name": "Tailwind CSS",
-          "level": "Expert",
-          "japanese_level": "エキスパート",
-          "years_experience": 2,
-          "description": "Utility-first CSS framework",
-          "japanese_description": "ユーティリティファーストのCSSフレームワーク",
+          "description": "Fine-tuning, prompting, and production integration of transformer-based LLMs",
+          "japanese_description": "トランスフォーマー系LLMのファインチューニング、プロンプト、本番統合",
           "projects_used": 12,
           "certifications": []
         },
         {
-          "name": "Sass/SCSS",
-          "japanese_name": "Sass/SCSS",
+          "name": "Multimodal AI",
+          "japanese_name": "マルチモーダルAI",
           "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 4,
+          "description": "Vision, speech, and cross-modal fusion for unified models and products",
+          "japanese_description": "視覚・音声・クロスモーダル融合による統合モデル・プロダクト",
+          "projects_used": 10,
+          "certifications": []
+        },
+        {
+          "name": "Prompt Engineering",
+          "japanese_name": "プロンプトエンジニアリング",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 4,
+          "description": "Structured prompts, tool use, and safe guardrails for assistants",
+          "japanese_description": "構造化プロンプト、ツール利用、アシスタント向けのセーフガード",
+          "projects_used": 15,
+          "certifications": []
+        },
+        {
+          "name": "Semantic Search & RAG",
+          "japanese_name": "セマンティック検索・RAG",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 5,
+          "description": "Dense retrieval, chunking, and grounding LLM outputs in private corpora",
+          "japanese_description": "密ベクトル検索、チャンキング、プライベートコーパスに基づくLLM接地",
+          "projects_used": 14,
+          "certifications": []
+        },
+        {
+          "name": "Model Evaluation",
+          "japanese_name": "モデル評価",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 5,
+          "description": "Offline metrics, human eval, and regression detection for NLP and vision",
+          "japanese_description": "オフライン指標、ヒューマン評価、NLP・ビジョンのリグレッション検知",
+          "projects_used": 16,
+          "certifications": []
+        },
+        {
+          "name": "Multi-Model Routing",
+          "japanese_name": "マルチモデルルーティング",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 3,
+          "description": "Cost-quality-latency tradeoffs and policy layers over heterogeneous models",
+          "japanese_description": "コスト・品質・レイテンシのトレードオフと異種モデル上のポリシー層",
+          "projects_used": 8,
+          "certifications": []
+        },
+        {
+          "name": "Inference Optimization",
+          "japanese_name": "推論最適化",
+          "level": "Advanced",
           "japanese_level": "上級",
           "years_experience": 4,
-          "description": "CSS preprocessor for scalable styles",
-          "japanese_description": "スケーラブルなスタイルのためのCSSプリプロセッサ",
+          "description": "Batching, caching, quantization awareness, and serving efficiency",
+          "japanese_description": "バッチング、キャッシュ、量子化の考慮、効率的なサーブ",
+          "projects_used": 10,
+          "certifications": []
+        },
+        {
+          "name": "PyTorch & Transformers",
+          "japanese_name": "PyTorch・Transformers",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 6,
+          "description": "Training loops, distributed experiments, and HuggingFace-style stacks",
+          "japanese_description": "学習ループ、分散実験、HuggingFace系スタック",
           "projects_used": 18,
           "certifications": []
         }
       ]
     },
     {
-      "id": "backend",
-      "name": "Backend Development",
-      "japanese_name": "バックエンド開発",
-      "description": "Building robust server-side applications and APIs",
-      "japanese_description": "堅牢なサーバーサイドアプリケーションとAPIの構築",
+      "id": "languages_data",
+      "name": "Languages, Data & APIs",
+      "japanese_name": "言語・データ・API",
+      "description": "Core engineering languages, persistence, and service boundaries",
+      "japanese_description": "コア言語、永続化、サービス境界",
       "icon": "server",
       "color": "#10B981",
       "skills": [
         {
-          "name": "Node.js",
-          "japanese_name": "Node.js",
-          "level": "Expert",
-          "japanese_level": "エキスパート",
-          "years_experience": 4,
-          "description": "JavaScript runtime for server-side development",
-          "japanese_description": "サーバーサイド開発のためのJavaScriptランタイム",
-          "projects_used": 15,
-          "certifications": ["Node.js Developer Certification"]
-        },
-        {
-          "name": "Express.js",
-          "japanese_name": "Express.js",
-          "level": "Expert",
-          "japanese_level": "エキスパート",
-          "years_experience": 4,
-          "description": "Web application framework for Node.js",
-          "japanese_description": "Node.jsのためのWebアプリケーションフレームワーク",
-          "projects_used": 12,
-          "certifications": []
-        },
-        {
-          "name": "Laravel",
-          "japanese_name": "Laravel",
-          "level": "Expert",
-          "japanese_level": "上級",
-          "years_experience": 3,
-          "description": "PHP web application framework",
-          "japanese_description": "PHP Webアプリケーションフレームワーク",
-          "projects_used": 8,
-          "certifications": ["Laravel Developer Certification"]
-        },
-        {
           "name": "Python",
           "japanese_name": "Python",
-          "level": "Advanced",
-          "japanese_level": "中級",
-          "years_experience": 2,
-          "description": "Versatile programming language for web and data",
-          "japanese_description": "Webとデータのための汎用プログラミング言語",
-          "projects_used": 5,
-          "certifications": ["Python Fundamentals"]
-        },
-        {
-          "name": "PostgreSQL",
-          "japanese_name": "PostgreSQL",
-          "level": "Expert",
-          "japanese_level": "上級",
-          "years_experience": 3,
-          "description": "Advanced open-source relational database",
-          "japanese_description": "高度なオープンソースリレーショナルデータベース",
-          "projects_used": 10,
-          "certifications": []
-        },
-        {
-          "name": "MongoDB",
-          "japanese_name": "MongoDB",
-          "level": "Advanced",
-          "japanese_level": "中級",
-          "years_experience": 2,
-          "description": "NoSQL document database",
-          "japanese_description": "NoSQLドキュメントデータベース",
-          "projects_used": 6,
-          "certifications": ["MongoDB Basics"]
-        }
-      ]
-    },
-    {
-      "id": "devops",
-      "name": "DevOps & Cloud",
-      "japanese_name": "DevOps・クラウド",
-      "description": "Deployment, monitoring, and infrastructure management",
-      "japanese_description": "デプロイメント、監視、インフラストラクチャ管理",
-      "icon": "cloud",
-      "color": "#F59E0B",
-      "skills": [
-        {
-          "name": "Docker",
-          "japanese_name": "Docker",
-          "level": "Advanced",
-          "japanese_level": "上級",
-          "years_experience": 3,
-          "description": "Containerization platform for applications",
-          "japanese_description": "アプリケーションのためのコンテナ化プラットフォーム",
-          "projects_used": 12,
-          "certifications": ["Docker Certified Associate"]
-        },
-        {
-          "name": "Kubernetes",
-          "japanese_name": "Kubernetes",
-          "level": "Advanced",
-          "japanese_level": "中級",
-          "years_experience": 2,
-          "description": "Container orchestration platform",
-          "japanese_description": "コンテナオーケストレーションプラットフォーム",
-          "projects_used": 4,
-          "certifications": []
-        },
-        {
-          "name": "AWS",
-          "japanese_name": "AWS",
-          "level": "Advanced",
-          "japanese_level": "中級",
-          "years_experience": 2,
-          "description": "Amazon Web Services cloud platform",
-          "japanese_description": "Amazon Web Servicesクラウドプラットフォーム",
-          "projects_used": 8,
-          "certifications": ["AWS Cloud Practitioner"]
-        },
-        {
-          "name": "CI/CD",
-          "japanese_name": "CI/CD",
-          "level": "Intermediate",
-          "japanese_level": "上級",
-          "years_experience": 3,
-          "description": "Continuous Integration and Deployment",
-          "japanese_description": "継続的インテグレーションとデプロイメント",
-          "projects_used": 15,
-          "certifications": []
-        },
-        {
-          "name": "Linux",
-          "japanese_name": "Linux",
-          "level": "Advanced",
-          "japanese_level": "中級",
-          "years_experience": 3,
-          "description": "Unix-like operating system administration",
-          "japanese_description": "Unixライクなオペレーティングシステムの管理",
-          "projects_used": 10,
-          "certifications": []
-        },
-        {
-          "name": "Nginx",
-          "japanese_name": "Nginx",
-          "level": "Advanced",
-          "japanese_level": "中級",
-          "years_experience": 2,
-          "description": "High-performance web server and reverse proxy",
-          "japanese_description": "高性能Webサーバーとリバースプロキシ",
-          "projects_used": 8,
-          "certifications": []
-        }
-      ]
-    },
-    {
-      "id": "ai_integrations",
-      "name": "AI & Integrations",
-      "japanese_name": "AI・統合",
-      "description": "Artificial intelligence and third-party integrations",
-      "japanese_description": "人工知能とサードパーティ統合",
-      "icon": "brain",
-      "color": "#8B5CF6",
-      "skills": [
-        {
-          "name": "OpenAI API",
-          "japanese_name": "OpenAI API",
-          "level": "Expert",
-          "japanese_level": "中級",
-          "years_experience": 1,
-          "description": "Integration with GPT models for AI features",
-          "japanese_description": "AI機能のためのGPTモデルとの統合",
-          "projects_used": 3,
-          "certifications": []
-        },
-        {
-          "name": "Machine Learning",
-          "japanese_name": "機械学習",
-          "level": "Advanced",
-          "japanese_level": "初級",
-          "years_experience": 1,
-          "description": "Basic machine learning concepts and implementation",
-          "japanese_description": "基本的な機械学習の概念と実装",
-          "projects_used": 2,
-          "certifications": []
-        },
-        {
-          "name": "REST APIs",
-          "japanese_name": "REST API",
           "level": "Expert",
           "japanese_level": "エキスパート",
-          "years_experience": 4,
-          "description": "Designing and consuming RESTful web services",
-          "japanese_description": "RESTful Webサービスの設計と利用",
+          "years_experience": 8,
+          "description": "Async services, data tooling, and ML engineering in Python",
+          "japanese_description": "非同期サービス、データツール、PythonでのMLエンジニアリング",
+          "projects_used": 30,
+          "certifications": []
+        },
+        {
+          "name": "JavaScript & TypeScript",
+          "japanese_name": "JavaScript・TypeScript",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 6,
+          "description": "Typed APIs, automation scripts, and light full-stack for AI products",
+          "japanese_description": "型付きAPI、自動化、AIプロダクト向けのフルスタック要素",
+          "projects_used": 12,
+          "certifications": []
+        },
+        {
+          "name": "SQL",
+          "japanese_name": "SQL",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 8,
+          "description": "Analytical queries, ETL, and feature stores backed by relational DBs",
+          "japanese_description": "分析クエリ、ETL、リレーショナルDBベースのフィーチャストア",
           "projects_used": 20,
           "certifications": []
         },
         {
-          "name": "GraphQL",
-          "japanese_name": "GraphQL",
-          "level": "Advanced",
-          "japanese_level": "中級",
-          "years_experience": 2,
-          "description": "Query language for APIs",
-          "japanese_description": "APIのためのクエリ言語",
-          "projects_used": 4,
-          "certifications": []
-        },
-        {
-          "name": "WebSocket",
-          "japanese_name": "WebSocket",
+          "name": "Shell Scripting",
+          "japanese_name": "シェルスクリプト",
           "level": "Advanced",
           "japanese_level": "上級",
-          "years_experience": 3,
-          "description": "Real-time communication protocol",
-          "japanese_description": "リアルタイム通信プロトコル",
-          "projects_used": 6,
+          "years_experience": 8,
+          "description": "POSIX/bash automation for builds, deploys, and data workflows",
+          "japanese_description": "ビルド・デプロイ・データワークフローのPOSIX/bash自動化",
+          "projects_used": 25,
           "certifications": []
         },
         {
-          "name": "Payment Gateways",
-          "japanese_name": "決済ゲートウェイ",
-          "level": "Intermediate",
-          "japanese_level": "中級",
-          "years_experience": 2,
-          "description": "Stripe, PayPal, and other payment integrations",
-          "japanese_description": "Stripe、PayPal、その他の決済統合",
-          "projects_used": 5,
+          "name": "REST API Design",
+          "japanese_name": "REST API設計",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 7,
+          "description": "Versioned HTTP APIs for ML services and enterprise integrations",
+          "japanese_description": "MLサービス・エンタープライズ統合向けバージョン付きHTTP API",
+          "projects_used": 22,
+          "certifications": []
+        },
+        {
+          "name": "Vector Databases",
+          "japanese_name": "ベクトルデータベース",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 4,
+          "description": "Embedding indexes, hybrid search, and operational tuning",
+          "japanese_description": "埋め込みインデックス、ハイブリッド検索、運用チューニング",
+          "projects_used": 10,
+          "certifications": []
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "name": "Production Platforms",
+      "japanese_name": "本番プラットフォーム",
+      "description": "Reliable delivery: cloud, distributed systems, and real-time stacks",
+      "japanese_description": "信頼できる提供：クラウド・分散・リアルタイム",
+      "icon": "cloud",
+      "color": "#F59E0B",
+      "skills": [
+        {
+          "name": "Containerization & CI/CD",
+          "japanese_name": "コンテナ・CI/CD",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 6,
+          "description": "Dockerized training and inference with repeatable pipelines",
+          "japanese_description": "再現可能なパイプラインによる学習・推論のコンテナ化",
+          "projects_used": 18,
+          "certifications": []
+        },
+        {
+          "name": "Cloud Services",
+          "japanese_name": "クラウドサービス",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 6,
+          "description": "Managed compute, storage, and observability for AI workloads",
+          "japanese_description": "AIワークロード向けマネージドコンピュート・ストレージ・可観測性",
+          "projects_used": 14,
+          "certifications": []
+        },
+        {
+          "name": "Distributed & Event-Driven Systems",
+          "japanese_name": "分散・イベント駆動",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 5,
+          "description": "Queues, stream processing, and decoupled inference pipelines",
+          "japanese_description": "キュー、ストリーム処理、疎結合な推論パイプライン",
+          "projects_used": 10,
+          "certifications": []
+        },
+        {
+          "name": "Caching & Performance",
+          "japanese_name": "キャッシュ・性能",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 7,
+          "description": "Latency budgets, cache layers, and SLO-driven optimization",
+          "japanese_description": "レイテンシ予算、キャッシュ層、SLO駆動の最適化",
+          "projects_used": 15,
+          "certifications": []
+        },
+        {
+          "name": "Multi-Tenant SaaS Patterns",
+          "japanese_name": "マルチテナントSaaS",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 4,
+          "description": "Isolation, quotas, and safe defaults for shared AI infrastructure",
+          "japanese_description": "共有AI基盤向けの分離・クォータ・安全なデフォルト",
+          "projects_used": 8,
+          "certifications": []
+        },
+        {
+          "name": "Real-Time Pipelines",
+          "japanese_name": "リアルタイムパイプライン",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 5,
+          "description": "Near-real-time features and low-latency scoring paths",
+          "japanese_description": "ニアリアルタイム特徴量と低レイテンシスコアリング",
+          "projects_used": 9,
+          "certifications": []
+        }
+      ]
+    },
+    {
+      "id": "product_ai",
+      "name": "Product & Decision Intelligence",
+      "japanese_name": "プロダクト・意思決定支援",
+      "description": "Structured outputs, UX for AI, and analytics-driven decisions",
+      "japanese_description": "構造化出力、AIのUX、分析に基づく意思決定",
+      "icon": "paint-brush",
+      "color": "#3B82F6",
+      "skills": [
+        {
+          "name": "Structured Output Design",
+          "japanese_name": "構造化出力設計",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 4,
+          "description": "JSON schemas, validation, and safe parsing of model generations",
+          "japanese_description": "JSONスキーマ、バリデーション、生成物の安全なパース",
+          "projects_used": 14,
+          "certifications": []
+        },
+        {
+          "name": "Decision Intelligence",
+          "japanese_name": "意思決定インテリジェンス",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 5,
+          "description": "Turning model signals into dashboards and business-facing insights",
+          "japanese_description": "モデルシグナルをダッシュボードやビジネス向け洞察に変換",
+          "projects_used": 12,
+          "certifications": []
+        },
+        {
+          "name": "Speech & Vision AI",
+          "japanese_name": "音声・視覚AI",
+          "level": "Advanced",
+          "japanese_level": "上級",
+          "years_experience": 5,
+          "description": "ASR/TTS hooks and vision APIs for end-user experiences",
+          "japanese_description": "ASR/TTS連携と視覚APIによるエンドユーザー体験",
+          "projects_used": 9,
+          "certifications": []
+        },
+        {
+          "name": "API Integration",
+          "japanese_name": "API統合",
+          "level": "Expert",
+          "japanese_level": "エキスパート",
+          "years_experience": 7,
+          "description": "Third-party models, enterprise auth, and resilient client libraries",
+          "japanese_description": "外部モデル、エンタープライズ認証、耐性のあるクライアント",
+          "projects_used": 20,
           "certifications": []
         }
       ]
@@ -324,8 +324,8 @@
     {
       "level": "Advanced",
       "japanese_level": "上級",
-      "description": "3-4 years experience, can work independently on complex tasks",
-      "japanese_description": "3-4年の経験、複雑なタスクを独立して作業できる",
+      "description": "3-6 years focused experience, can own complex workstreams",
+      "japanese_description": "3〜6年の集中経験、複雑なワークストリームを担当できる",
       "color": "#3B82F6",
       "percentage": 75
     },
@@ -348,57 +348,19 @@
   ],
   "learning_goals": [
     {
-      "skill": "Rust",
-      "japanese_skill": "Rust",
-      "reason": "System programming and performance-critical applications",
-      "japanese_reason": "システムプログラミングとパフォーマンス重視のアプリケーション",
-      "target_date": "2026 Q3"
-    },
-    {
-      "skill": "WebAssembly",
-      "japanese_skill": "WebAssembly",
-      "reason": "High-performance web applications",
-      "japanese_reason": "高性能Webアプリケーション",
+      "skill": "Hardware-aware inference",
+      "japanese_skill": "ハードウェア対応推論",
+      "reason": "Deeper optimization on accelerators and edge deployments",
+      "japanese_reason": "アクセラレータとエッジ配置での推論最適化の深化",
       "target_date": "2026 Q4"
     },
     {
-      "skill": "Advanced AI/ML",
-      "japanese_skill": "高度なAI/ML",
-      "reason": "Building intelligent applications and automation",
-      "japanese_reason": "インテリジェントアプリケーションと自動化の構築",
-      "target_date": "2027 Q1"
+      "skill": "Formal methods for AI safety",
+      "japanese_skill": "AI安全の形式手法",
+      "reason": "Stronger guarantees alongside statistical evaluation",
+      "japanese_reason": "統計的評価に加えたより強い保証",
+      "target_date": "2027 Q2"
     }
   ],
-  "certifications": [
-    {
-      "name": "AWS Cloud Practitioner",
-      "japanese_name": "AWSクラウドプラクティショナー",
-      "issuer": "Amazon Web Services",
-      "date": "2024-06",
-      "credential_id": "AWS-CLF-2024-001",
-      "valid_until": "2027-06",
-      "description": "Foundational understanding of AWS Cloud concepts",
-      "japanese_description": "AWSクラウド概念の基礎理解"
-    },
-    {
-      "name": "React Developer Certification",
-      "japanese_name": "React開発者認定",
-      "issuer": "Meta",
-      "date": "2024-03",
-      "credential_id": "META-REACT-2024-001",
-      "valid_until": "2027-03",
-      "description": "Advanced React development skills and best practices",
-      "japanese_description": "高度なReact開発スキルとベストプラクティス"
-    },
-    {
-      "name": "Docker Certified Associate",
-      "japanese_name": "Docker認定アソシエイト",
-      "issuer": "Docker Inc.",
-      "date": "2022-11",
-      "credential_id": "DCA-2022-001",
-      "valid_until": "2026-11",
-      "description": "Containerization and orchestration expertise",
-      "japanese_description": "コンテナ化とオーケストレーションの専門知識"
-    }
-  ]
+  "certifications": []
 }

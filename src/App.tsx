@@ -12,6 +12,7 @@ import Achievements from './pages/Achievements'
 import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
 import Education from './pages/Education'
+import Specializations from './pages/Specializations'
 import Footer from './components/Footer'
 
 // Context
@@ -55,6 +56,9 @@ function App() {
           </section>
           <section id="education">
             <Education />
+          </section>
+          <section id="specializations">
+            <Specializations />
           </section>
           <section id="projects">
             <Projects />

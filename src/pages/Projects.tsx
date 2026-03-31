@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer'
 import { useLanguage } from '../contexts/LanguageContext'
 import { loadPortfolioData, getLocalizedText, getLocalizedArray } from '../utils/dataLoader'
 import { Project } from '../types/portfolio'
-import { ExternalLink, Github, Play, X, Calendar, Clock, Award, Lightbulb, CheckCircle } from 'lucide-react'
+import { ExternalLink, Github, Play, X, Award, Lightbulb, CheckCircle } from 'lucide-react'
 
 const Projects: React.FC = () => {
   const { language } = useLanguage()
@@ -48,20 +48,6 @@ const Projects: React.FC = () => {
                 onClick={() => setSelected(project)}
                 className="bg-white group cursor-pointer hover:bg-soft-50 transition-colors duration-200 flex flex-col"
               >
-                {/* Image */}
-                <div className="aspect-video overflow-hidden relative">
-                  <img
-                    src={project.images[0]}
-                    alt={getLocalizedText(project, 'name', language)}
-                    className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
-                    style={{ transform: 'scale(1)' }}
-                  />
-                  {/* Number overlay */}
-                  <span className="absolute top-3 left-3 font-mono text-xs text-white/60 bg-black/30 px-2 py-0.5">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                </div>
-
                 {/* Info */}
                 <div className="p-6 flex-1 flex flex-col">
                   <div className="flex items-center justify-between mb-3">
@@ -141,43 +127,24 @@ const Projects: React.FC = () => {
               className="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-modal"
               onClick={e => e.stopPropagation()}
             >
-              {/* Modal image */}
-              <div className="relative">
-                <img
-                  src={selected.images[0]}
-                  alt={getLocalizedText(selected, 'name', language)}
-                  className="w-full h-56 object-cover"
-                />
-                <button
-                  onClick={() => setSelected(null)}
-                  className="absolute top-4 right-4 w-8 h-8 bg-white flex items-center justify-center hover:bg-soft-100 transition-colors duration-150"
-                  aria-label="Close"
-                >
-                  <X className="w-4 h-4" />
-                </button>
+              {/* Modal header (no screenshots / no banner) */}
+              <div className="sticky top-0 z-10 bg-white border-b border-soft-100">
+                <div className="px-6 py-4 flex items-center justify-between">
+                  <span className="font-mono text-xs text-soft-400 uppercase tracking-wider">
+                    {language === 'ja' ? 'プロジェクト詳細' : 'Project details'}
+                  </span>
+                  <button
+                    onClick={() => setSelected(null)}
+                    className="w-8 h-8 bg-soft-50 flex items-center justify-center hover:bg-soft-100 transition-colors duration-150"
+                    aria-label="Close"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
 
               {/* Modal body */}
               <div className="p-8">
-                {/* Tags */}
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="tag-ocean">{getLocalizedText(selected, 'category', language)}</span>
-                  <span className="tag">{getLocalizedText(selected, 'status', language)}</span>
-                </div>
-
-                <h2 className="mb-3">{getLocalizedText(selected, 'name', language)}</h2>
-
-                <div className="flex items-center gap-6 mb-6">
-                  <div className="flex items-center gap-1.5">
-                    <Calendar className="w-3.5 h-3.5 text-soft-400" />
-                    <span className="font-mono text-xs text-soft-400">{selected.year}</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <Clock className="w-3.5 h-3.5 text-soft-400" />
-                    <span className="font-mono text-xs text-soft-400">{getLocalizedText(selected, 'duration', language)}</span>
-                  </div>
-                </div>
-
                 <p className="font-sans text-soft-600 leading-relaxed mb-6">
                   {getLocalizedText(selected, 'description', language)}
                 </p>

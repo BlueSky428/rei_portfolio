@@ -63,7 +63,7 @@ const Home: React.FC = () => {
   })
 
   const stats = [
-    { value: '8',      labelEn: 'Years Exp.',    labelJa: '年の経験'     },
+    { value: '10',     labelEn: 'Years Exp.',    labelJa: '年の経験'     },
     { value: '20+',    labelEn: 'Projects',       labelJa: 'プロジェクト' },
     { value: 'Tokyo',  labelEn: 'Based In',       labelJa: '拠点'        },
   ]
@@ -151,7 +151,7 @@ const Home: React.FC = () => {
                   </span>
                 </motion.div>
 
-                {/* Name — stacked lines */}
+                {/* Name - stacked lines */}
                 <motion.div {...rise(0.35)}>
                   {nameParts.map((part, i) => (
                     <div
@@ -170,7 +170,7 @@ const Home: React.FC = () => {
                   </div>
                 </motion.div>
 
-                {/* Red rule — animated draw */}
+                {/* Red rule - animated draw */}
                 <motion.div
                   initial={{ scaleX: 0 }}
                   animate={{ scaleX: loaded ? 1 : 0 }}

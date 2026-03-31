@@ -96,14 +96,16 @@ const Testimonials: React.FC = () => {
                     ))}
                   </div>
 
-                  <a
-                    href={t.linkedin_url}
-                    target="_blank" rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 font-mono text-xs text-soft-400 hover:text-soft-900 transition-colors duration-150"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                    {language === 'ja' ? 'LinkedInで確認' : 'View on LinkedIn'}
-                  </a>
+                  {t.linkedin_url && t.linkedin_url !== '#' && (
+                    <a
+                      href={t.linkedin_url}
+                      target="_blank" rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 font-mono text-xs text-soft-400 hover:text-soft-900 transition-colors duration-150"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      {language === 'ja' ? '外部リンク' : 'External link'}
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}

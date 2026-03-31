@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   SOFT PALETTE — CSS custom properties
+  SOFT PALETTE - CSS custom properties
    The soft-* Tailwind colours reference these vars so the
    entire neutral system auto-inverts when html.dark is set.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
@@ -50,7 +50,7 @@ html.dark footer {
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   BASE RESET — Smart Japanese: crisp white + near-black ink
+  BASE RESET - Smart Japanese: crisp white + near-black ink
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 @layer base {
   html {
@@ -65,7 +65,7 @@ html.dark footer {
     font-feature-settings: 'kern' 1, 'liga' 1, 'tnum' 1;
   }
 
-  /* Headings: Noto Sans JP — clean, geometric, modern Japanese */
+  /* Headings: Noto Sans JP - clean, geometric, modern Japanese */
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading text-soft-900;
     font-feature-settings: 'kern' 1;
@@ -124,7 +124,7 @@ html.dark footer {
     background-clip: text;
   }
 
-  /* "Cool gradient" — kept for backward compat, now ink → beni */
+  /* "Cool gradient" - kept for backward compat, now ink -> beni */
   .text-gradient-cool {
     background: linear-gradient(135deg, #111111 0%, #3A3A3A 60%, #C03025 100%);
     -webkit-background-clip: text;
@@ -272,7 +272,7 @@ html.dark footer {
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   DARK MODE — targeted overrides
+  DARK MODE - targeted overrides
    soft-* colours auto-invert via CSS variables above.
    These rules handle: bg-white surfaces, accent palettes
    (ocean/beni/matcha), component classes, and toast styles.
@@ -296,7 +296,7 @@ html.dark footer {
 .dark .btn-secondary     { border-color: rgb(var(--s-900)); color: rgb(var(--s-900)); }
 .dark .btn-secondary:hover { background-color: rgb(var(--s-900)); color: rgb(var(--s-50)); }
 
-/* Text gradients — use light ink in dark mode */
+/* Text gradients - use light ink in dark mode */
 .dark .text-gradient {
   background: linear-gradient(135deg, #F0F0F0 0%, #A0A0A0 100%);
   -webkit-background-clip: text;
@@ -310,21 +310,21 @@ html.dark footer {
   background-clip: text;
 }
 
-/* Ocean palette (anthracite — too dark for dark bg) */
+/* Ocean palette (anthracite - too dark for dark bg) */
 .dark .tag-ocean         { background-color: #141420; border-color: #28284A; color: #9090C0; }
 .dark .text-ocean-700    { color: #9090B8; }
 .dark .bg-ocean-50       { background-color: #10101E; }
 .dark .border-ocean-300  { border-color: #28284A; }
 .dark .text-ocean-600    { color: #A0A0C8; }
 
-/* Beni accent (red — slightly brighten for dark bg legibility) */
+/* Beni accent (red - slightly brighten for dark bg legibility) */
 .dark .tag-beni          { background-color: #200E0C; border-color: #3C1A16; color: #F07060; }
 .dark .text-beni-600     { color: #E04030; }
 .dark .text-beni-700     { color: #F07060; }
 .dark .bg-beni-50        { background-color: #1A0B08; }
 .dark .border-beni-300   { border-color: #3C1814; }
 
-/* Matcha accent (dark green — lighten for dark bg) */
+/* Matcha accent (dark green - lighten for dark bg) */
 .dark .text-matcha-600   { color: #78BF6A; }
 .dark .text-matcha-700   { color: #92CF7E; }
 .dark .bg-matcha-50      { background-color: #0C180C; }

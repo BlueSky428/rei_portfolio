@@ -345,7 +345,6 @@ Rapidly progressed from Junior Developer to Senior Software Engineer in 4 years,
 ### Languages
 - **Japanese** - Native (母語)
 - **English** - Fluent (流暢)
-- **Chinese** - Conversational (会話レベル)
 
 ### Interests
 - Ocean Photography (海洋写真)

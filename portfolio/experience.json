@@ -5,89 +5,141 @@
   "timeline": [
     {
       "id": 1,
-      "period": "2021 - Present",
-      "japanese_period": "2021年 - 現在",
-      "company": "KizunaTech Solutions",
-      "japanese_company": "キズナテックソリューションズ",
-      "position": "Full-Stack Software Engineer",
-      "japanese_position": "フルスタックソフトウェアエンジニア",
+      "period": "Apr 2022 - Present",
+      "japanese_period": "2022年4月 - 現在",
+      "company": "Rakuten Group, Inc.",
+      "japanese_company": "楽天グループ株式会社",
+      "position": "AI Engineer",
+      "japanese_position": "AIエンジニア",
       "location": "Tokyo, Japan",
       "japanese_location": "東京都、日本",
-      "description": "Designing and building end-to-end web applications from API to frontend, with a focus on clean architecture and DX.",
-      "japanese_description": "APIからフロントエンドまで一貫したWebアプリケーションを設計・実装し、クリーンアーキテクチャと開発者体験の向上に注力。",
+      "description": "Production AI platforms: LLM and multimodal services, semantic search, routing, and evaluation at enterprise scale.",
+      "japanese_description": "本番向けAIプラットフォーム：LLM・マルチモーダルサービス、セマンティック検索、ルーティング、評価などを大規模に担当。",
       "key_achievements": [
-        "Led development of a multi-tenant dashboard used daily by enterprise clients.",
-        "Introduced type-safe APIs and shared schemas across frontend and backend.",
-        "Improved deployment reliability by standardizing CI/CD workflows.",
-        "Collaborated closely with designers to refine interaction patterns and microcopy."
+        "Partnered on multi-model routing and inference optimization for high-traffic products.",
+        "Ran model and retrieval evaluations to keep quality and latency within production SLOs.",
+        "Automated operational workflows and built guardrails for responsible data handling.",
+        "Drove technical reviews that continuously improved platform architecture and prompts."
       ],
       "japanese_achievements": [
-        "エンタープライズクライアントが日常的に利用するマルチテナントダッシュボードの開発をリード。",
-        "フロントエンドとバックエンド間で共有される型安全なAPIとスキーマを導入。",
-        "CI/CDワークフローを標準化し、デプロイの信頼性を向上。",
-        "デザイナーと連携し、インタラクションデザインとマイクロコピーを改善。"
+        "高トラフィックプロダクトにおけるマルチモデルルーティングと推論最適化に参画。",
+        "モデル・検索品質の評価を運用し、本番SLO内に品質とレイテンシを維持。",
+        "運用の自動化とデータ取り扱いのためのガードレールを構築。",
+        "テクニカルレビューを通じてプラットフォーム設計とプロンプトの継続改善を推進。"
       ],
-      "technologies": ["TypeScript", "React", "Node.js", "PostgreSQL", "Docker", "AWS"]
+      "technologies": ["Python", "PyTorch", "TypeScript", "REST APIs", "Vector search", "CI/CD", "Cloud"]
     },
     {
       "id": 2,
-      "period": "2018 - 2021",
-      "japanese_period": "2018年 - 2021年",
-      "company": "MiraiSoft Labs",
-      "japanese_company": "ミライソフトラボ",
-      "position": "Junior Software Engineer",
-      "japanese_position": "ジュニアソフトウェアエンジニア",
-      "location": "Sendai, Japan",
-      "japanese_location": "仙台市、日本",
-      "description": "Started career building internal tools and customer-facing features under senior mentorship.",
-      "japanese_description": "シニアエンジニアのメンターシップのもと、社内ツールや顧客向け機能の開発からキャリアをスタート。",
+      "period": "Mar 2019 - Mar 2022",
+      "japanese_period": "2019年3月 - 2022年3月",
+      "company": "Preferred Networks, Inc.",
+      "japanese_company": "株式会社Preferred Networks",
+      "position": "AI Engineer",
+      "japanese_position": "AIエンジニア",
+      "location": "Tokyo, Japan",
+      "japanese_location": "東京都、日本",
+      "description": "Deep learning research engineering: neural networks, computer vision, and production-oriented ML workflows.",
+      "japanese_description": "深層学習のリサーチエンジニアリング：ニューラルネット、コンピュータビジョン、本番志向のMLワークフロー。",
       "key_achievements": [
-        "Implemented UI components and API integrations for multiple web products.",
-        "Helped modernize legacy codebases while keeping production stable.",
-        "Wrote internal documentation that new team members still rely on.",
-        "Participated in code reviews and learned team development practices."
+        "Designed and trained models for pattern recognition and perception-heavy workloads.",
+        "Improved image-recognition pipelines that directly lifted product UX metrics.",
+        "Collaborated cross-functionally on objectives, data sourcing, and experimentation.",
+        "Maintained rigorous evaluation of prototypes before production deployment."
       ],
       "japanese_achievements": [
-        "複数のWebプロダクトにおいてUIコンポーネントとAPI連携を実装。",
-        "本番安定性を維持しながらレガシーコードベースのモダナイズを支援。",
-        "新規メンバーも参照する社内ドキュメントを作成。",
-        "コードレビューに参加し、チーム開発のプラクティスを習得。"
+        "パターン認識・知覚系ワークロード向けモデルの設計と学習を実施。",
+        "画像認識パイプラインを改善し、プロダクトのUX指標を向上。",
+        "目的・データ取得・実験について部門横断で連携。",
+        "本番投入前にプロトタイプの厳密な評価を継続。"
       ],
-      "technologies": ["JavaScript", "Vue.js", "PHP", "MySQL", "Git", "Linux"]
+      "technologies": ["Python", "PyTorch", "CUDA", "Linux", "ML pipelines", "Computer vision"]
+    },
+    {
+      "id": 3,
+      "period": "Sep 2017 - Feb 2019",
+      "japanese_period": "2017年9月 - 2019年2月",
+      "company": "Mercari, Inc.",
+      "japanese_company": "株式会社メルカリ",
+      "position": "Machine Learning Engineer",
+      "japanese_position": "機械学習エンジニア",
+      "location": "Tokyo, Japan",
+      "japanese_location": "東京都、日本",
+      "description": "Marketplace ML: search, ranking, and multimedia understanding for a high-scale C2C product.",
+      "japanese_description": "マーケットプレイスML：大規模C2Cプロダクトの検索・ランキング・マルチメディア理解。",
+      "key_achievements": [
+        "Identified valuable data sources and automated collection for downstream models.",
+        "Integrated AI-driven insight into decision workflows with product counterparts.",
+        "Optimized inference paths and software bottlenecks for faster user experiences.",
+        "Created neural architectures suited to structured output and ranking tasks."
+      ],
+      "japanese_achievements": [
+        "下流モデル向けに有用なデータソースを特定し収集を自動化。",
+        "プロダクトと連携し、意思決定フローにAI由来の洞察を統合。",
+        "推論経路とソフトウェアのボトルネックを最適化し体験を高速化。",
+        "構造化出力・ランキングに適したニューラル構成を設計。"
+      ],
+      "technologies": ["Python", "TensorFlow / PyTorch", "SQL", "Spark", "REST", "A/B testing"]
+    },
+    {
+      "id": 4,
+      "period": "Apr 2016 - Aug 2017",
+      "japanese_period": "2016年4月 - 2017年8月",
+      "company": "NTT Data Corporation",
+      "japanese_company": "NTTデータ株式会社",
+      "position": "Junior Software Engineer",
+      "japanese_position": "ジュニアソフトウェアエンジニア",
+      "location": "Tokyo, Japan",
+      "japanese_location": "東京都、日本",
+      "description": "Enterprise software delivery: features, maintenance, and performance improvements on client projects.",
+      "japanese_description": "エンタープライズ向けソフトウェア開発：機能追加、保守、顧客プロジェクトでの性能改善。",
+      "key_achievements": [
+        "Shipped application features under senior mentorship with disciplined version control.",
+        "Documented design and implementation for sustainable maintenance.",
+        "Participated in reviews and testing to stabilize releases.",
+        "Contributed to incremental performance optimization of legacy components."
+      ],
+      "japanese_achievements": [
+        "シニアの指導のもと、バージョン管理を徹底してアプリ機能をリリース。",
+        "保守可能なよう設計・実装を文書化。",
+        "レビューとテストに参加しリリースを安定化。",
+        "レガシーコンポーネントの段階的性能改善に貢献。"
+      ],
+      "technologies": ["Java", "SQL", "Git", "Enterprise stacks", "Linux"]
     }
   ],
   "career_highlights": {
-    "total_experience": "8 years",
-    "japanese_total_experience": "8年",
+    "total_experience": "10 years",
+    "japanese_total_experience": "10年",
     "projects_completed": "50+",
     "japanese_projects_completed": "50以上",
-    "technologies_mastered": "20+",
-    "japanese_technologies_mastered": "20以上",
-    "team_leadership": "3+ years",
-    "japanese_team_leadership": "3年以上"
+    "technologies_mastered": "25+",
+    "japanese_technologies_mastered": "25以上",
+    "team_leadership": "5+ years",
+    "japanese_team_leadership": "5年以上"
   },
   "specializations": [
     {
-      "area": "Frontend Development",
-      "japanese_area": "フロントエンド開発",
+      "area": "Large Language Models",
+      "japanese_area": "大規模言語モデル",
       "expertise_level": "Expert",
       "japanese_expertise_level": "エキスパート"
     },
     {
-      "area": "Backend Development",
-      "japanese_area": "バックエンド開発",
-      "expertise_level": "Advanced",
-      "japanese_expertise_level": "上級"
+      "area": "Multimodal & Semantic Search",
+      "japanese_area": "マルチモーダル・セマンティック検索",
+      "expertise_level": "Expert",
+      "japanese_expertise_level": "エキスパート"
     },
     {
-      "area": "DevOps & Cloud",
-      "japanese_area": "DevOps・クラウド",
-      "expertise_level": "Intermediate",
-      "japanese_expertise_level": "中級"
+      "area": "Production ML & Evaluation",
+      "japanese_area": "本番ML・評価",
+      "expertise_level": "Expert",
+      "japanese_expertise_level": "エキスパート"
     },
     {
-      "area": "Team Leadership",
-      "japanese_area": "チームリーダーシップ",
+      "area": "Platform & API Integration",
+      "japanese_area": "プラットフォーム・API統合",
       "expertise_level": "Advanced",
       "japanese_expertise_level": "上級"
     }

@@ -34,12 +34,12 @@ const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-16">
 
-          {/* Brand — col 1–4 */}
+          {/* Brand - col 1-4 */}
           <div className="md:col-span-4">
             {/* Monogram row */}
             <div className="flex items-center gap-3 mb-6">
               <span className="w-8 h-8 flex items-center justify-center border border-soft-700 font-mono font-bold text-xs text-soft-200">
-                RF
+                R
               </span>
               <span className="font-heading font-bold text-sm text-soft-100 tracking-wide">
                 {language === 'ja' ? '藤本麗' : 'Rei Fujimoto'}
@@ -56,8 +56,8 @@ const Footer: React.FC = () => {
 
             <p className="font-sans text-xs text-soft-500 leading-relaxed mb-6 max-w-xs">
               {language === 'ja'
-                ? 'モダンなWeb技術と日本文化の架け橋。東京在住のフルスタック開発者。'
-                : 'Full-stack developer in Tokyo. Bridging modern web technology with Japanese cultural sensibility.'}
+                ? 'LLMとマルチモーダルAI、本番向け検索・評価・ルーティング。東京墨田区在住のAIエンジニア。'
+                : 'LLMs, multimodal AI, and production search, evaluation, and routing. AI engineer based in Sumida-ku, Tokyo.'}
             </p>
 
             {/* Social buttons */}
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
                 <EmailIcon className="w-3.5 h-3.5" />
               </a>
               <a
-                href="https://t.me/kintsugi320"
+                href="https://t.me/rentsuki320"
                 target="_blank" rel="noopener noreferrer"
                 className="w-8 h-8 border border-soft-700 flex items-center justify-center text-soft-500 hover:border-soft-400 hover:text-soft-200 transition-colors duration-200"
                 aria-label="Telegram"
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Quick links — col 5–12 */}
+          {/* Quick links - col 5-12 */}
           <div className="md:col-span-8 grid grid-cols-2 sm:grid-cols-3 gap-8">
             {footerData.quick_links.sections.map((section) => (
               <div key={section.title}>
@@ -123,7 +123,7 @@ const Footer: React.FC = () => {
 
           {/* Left: copyright + version */}
           <p className="font-mono text-soft-600" style={{ fontSize: '0.625rem', letterSpacing: '0.1em' }}>
-            © {new Date().getFullYear()} RF · v2.1.0 · TOKYO
+            © {new Date().getFullYear()} Rei Fujimoto · v2.1.0 · TOKYO
           </p>
 
           {/* Centre: beni dot */}

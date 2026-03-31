@@ -5,586 +5,550 @@
   "projects": [
     {
       "id": 1,
-      "name": "mi-6 Recruit",
-      "japanese_name": "mi-6 リクルート",
-      "category": "Recruitment",
-      "japanese_category": "リクルート",
+      "name": "Aisera",
+      "japanese_name": "Aisera",
+      "category": "Enterprise Agent Platform",
+      "japanese_category": "エンタープライズAI基盤",
       "status": "Completed",
       "japanese_status": "完了",
-      "year": "2020",
-      "duration": "6 months",
-      "japanese_duration": "6ヶ月",
-      "description": "A comprehensive recruitment platform with microservices architecture, featuring real-time inventory management and AI-powered recommendations",
-      "japanese_description": "マイクロサービスアーキテクチャを採用した包括的なECプラットフォーム。リアルタイム在庫管理とAI搭載のレコメンデーション機能を特徴とする",
+      "year": "2025",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "Agentic AI platform for enterprises: assistants, agent studio, integrations, evaluation, and observability for reliable production rollouts.",
+      "japanese_description": "企業向けエージェントAI基盤。アシスタント、エージェント構築、統合、評価、可観測性を提供し、本番リリースの信頼性を高める。",
       "technologies": [
-        "React",
-        "Node.js",
-        "PostgreSQL",
-        "Redis",
-        "Docker",
-        "AWS",
-        "Kubernetes",
-        "Next.js"
+        "Python",
+        "TypeScript",
+        "LLM gateway",
+        "OpenTelemetry",
+        "MCP",
+        "CI/CD"
       ],
       "features": [
-        "Real-time inventory tracking",
-        "AI-powered product recommendations",
-        "Multi-language support (EN/JP/CN)",
-        "Mobile-responsive design",
-        "Payment gateway integration",
-        "Admin dashboard with analytics",
-        "AI-powered job recommendations"
+        "Unified agent platform for multiple business domains",
+        "Agent composer / studio for building agents",
+        "Integrations with tools and enterprise systems",
+        "Evaluation and continuous optimization workflow",
+        "Observability and tracing for production reliability"
       ],
       "japanese_features": [
-        "リアルタイム在庫追跡",
-        "AI搭載商品レコメンデーション",
-        "多言語対応（英語/日本語/中国語）",
-        "モバイルレスポンシブデザイン",
-        "決済ゲートウェイ統合",
-        "分析機能付き管理ダッシュボード",
-        "AI搭載ジョブレコメンデーション"
+        "複数ドメインを横断する統合エージェント基盤",
+        "エージェント構築のためのスタジオ機能",
+        "業務ツール・システムとの統合",
+        "評価と継続最適化のワークフロー",
+        "本番信頼性のための可観測性とトレーシング"
       ],
-      "challenges": "Implementing real-time synchronization across microservices while maintaining data consistency, and AI-powered job recommendations",
-      "japanese_challenges": "データの一貫性を保ちながらマイクロサービス間のリアルタイム同期を実装",
-      "solutions": "Used event-driven architecture with Apache Kafka for reliable message queuing and eventual consistency, and AI-powered job recommendations",
-      "japanese_solutions": "Apache Kafkaを使用したイベント駆動アーキテクチャで信頼性の高いメッセージキューイングと結果整合性を実現",
+      "challenges": "Enterprise-grade safety, reliability, and governance while supporting heterogeneous models and tool ecosystems.",
+      "japanese_challenges": "多様なモデルとツールのエコシステムに対応しつつ、エンタープライズ要件の安全性・信頼性・ガバナンスを成立させること。",
+      "solutions": "Built evaluation and observability into the platform lifecycle and standardized integration patterns for agents and tools.",
+      "japanese_solutions": "評価と可観測性をプラットフォームのライフサイクルに組み込み、エージェントとツールの統合パターンを標準化。",
       "results": [
-        "40% increase in conversion rate",
-        "99.9% uptime achieved",
-        "50% reduction in page load time",
-        "Handled 10,000+ concurrent users",
-        "AI-powered job recommendations"
+        "Faster time-to-value for enterprise deployments",
+        "Higher reliability through tracing and evaluation gates",
+        "Easier cross-domain automation with unified agent tooling"
       ],
       "japanese_results": [
-        "コンバージョン率40%向上",
-        "99.9%の稼働率を達成",
-        "ページ読み込み時間50%短縮",
-        "10,000人以上の同時ユーザーに対応"
+        "エンタープライズ導入の立ち上げを高速化",
+        "トレーシングと評価ゲートで信頼性を向上",
+        "統合された基盤で業務自動化を容易に"
       ],
       "images": [
-        "/images/projects/project-1.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://recruit.mi-6.co.jp/"
+      "live_url": "https://aisera.com/"
     },
     {
       "id": 2,
-      "name": "ジェイエムシー株式会社 Recruit Site",
-      "japanese_name": "ジェイエムシー株式会社 Recruit Site",
-      "category": "Productivity",
-      "japanese_category": "生産性ツール",
+      "name": "raia AI",
+      "japanese_name": "raia AI",
+      "category": "AI Agent Platform",
+      "japanese_category": "AIエージェント基盤",
       "status": "Completed",
       "japanese_status": "完了",
-      "year": "2020",
-      "duration": "4 months",
-      "japanese_duration": "4ヶ月",
-      "description": "A comprehensive recruitment platform with microservices architecture, featuring real-time inventory management and AI-powered recommendations",
-      "japanese_description": "日本の禅哲学にインスパイアされたミニマリストなプロジェクト管理ツール。タスク管理におけるシンプルさとマインドフルネスに焦点を当てる",
+      "year": "2024",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "End-to-end platform to build, train, and deploy AI agents with multi-channel communication, workflow integrations, and human-in-the-loop oversight.",
+      "japanese_description": "AIエージェントを構築・学習・デプロイするための統合プラットフォーム。マルチチャネル、ワークフロー統合、HITL監督に対応。",
       "technologies": [
-        "Express.js",
-        "MongoDB",
-        "Socket.io",
-        "JWT",
-        "Docker",
-        "React/Next.js"
+        "Python",
+        "OpenAI models",
+        "APIs",
+        "HITL",
+        "SOC2",
+        "Integrations"
       ],
       "features": [
-        "Kanban board with drag-and-drop",
-        "Real-time collaboration",
-        "AI-powered job recommendations",
-        "Time tracking with Pomodoro technique",
-        "Team chat integration",
-        "Customizable themes"
+        "Zero-code agent launch pad and skills",
+        "SMS, email, chat, and voice channels",
+        "Human feedback loops and copilot",
+        "Human-in-the-loop takeovers",
+        "Workflow orchestration and APIs"
       ],
       "japanese_features": [
-        "ドラッグ&ドロップ対応のカンバンボード",
-        "リアルタイムコラボレーション",
-        "マインドフルネスリマインダー",
-        "ポモドーロテクニックによる時間追跡",
-        "チームチャット統合",
-        "カスタマイズ可能なテーマ"
+        "ゼロコードのエージェント構築",
+        "SMS・メール・チャット・音声チャネル",
+        "ヒューマンフィードバックとコパイロット",
+        "Human-in-the-loopによる介入",
+        "ワークフロー実行とAPI連携"
       ],
-      "challenges": "Creating an intuitive interface that promotes focus while maintaining powerful project management features",
-      "japanese_challenges": "強力なプロジェクト管理機能を維持しながら、集中を促進する直感的なインターフェースの作成",
-      "solutions": "Applied progressive disclosure and minimal design principles with carefully crafted user flows",
-      "japanese_solutions": "段階的開示とミニマルデザインの原則を適用し、慎重に設計されたユーザーフローを実装",
+      "challenges": "Scaling agent deployments across channels while maintaining safety, compliance, and high response quality.",
+      "japanese_challenges": "複数チャネルにまたがるエージェント運用をスケールしながら、安全性・コンプライアンス・応答品質を維持すること。",
+      "solutions": "Implemented HITL patterns, audit trails, and integration hooks so agents can execute real workflows with oversight.",
+      "japanese_solutions": "HITL、監査ログ、統合フックを整備し、監督下で実ワークフローを実行可能に。",
       "results": [
-        "85% user satisfaction rate",
-        "60% increase in team productivity",
-        "30% reduction in project completion time",
-        "500+ active users"
+        "Deployed agents across multiple channels with consistent behavior",
+        "Improved operational reliability with oversight and auditability",
+        "Faster integrations with existing business systems"
       ],
       "japanese_results": [
-        "85%のユーザー満足度",
-        "チーム生産性60%向上",
-        "プロジェクト完了時間30%短縮",
-        "500人以上のアクティブユーザー"
+        "複数チャネルで一貫したエージェント運用を実現",
+        "監督と監査性で運用信頼性を向上",
+        "既存システムとの統合を高速化"
       ],
       "images": [
-        "/images/projects/project-2.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://recruit.jmc-ltd.co.jp/"
+      "live_url": "https://www.raiaai.com/"
     },
     {
       "id": 3,
-      "name": "Misshelly",
-      "japanese_name": "Misshelly",
-      "category": "Mobile App",
-      "japanese_category": "モバイルアプリ",
+      "name": "Agent.so",
+      "japanese_name": "Agent.so",
+      "category": "AI Agents Network",
+      "japanese_category": "AIエージェントネットワーク",
       "status": "Completed",
       "japanese_status": "完了",
-      "year": "2021",
-      "duration": "3 months",
-      "japanese_duration": "3ヶ月",
-      "description": "A beautiful weather application with Japanese aesthetics, featuring cherry blossom animations and traditional weather forecasting methods",
-      "japanese_description": "日本の美学を取り入れた美しい天気アプリケーション。桜のアニメーションと伝統的な天気予報方法を特徴とする",
+      "year": "2024",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "All-in-one portal to create, train, and use AI agents and apps. Focus on private-by-design experiences and rapid agent setup.",
+      "japanese_description": "AIエージェントとアプリを作成・学習・利用する統合ポータル。プライバシー重視と素早い立ち上げにフォーカス。",
       "technologies": [
-        "React Native",
-        "Expo",
-        "OpenWeatherMap API",
-        "Lottie",
-        "AsyncStorage",
-        "React/Next.js"
+        "LLMs",
+        "Agent training",
+        "Secure vault",
+        "Web app",
+        "Prompting"
       ],
       "features": [
-        "Real-time inventory tracking",
-        "AI-powered job recommendations",
-        "Multi-language support (EN/JP/CN)",
-        "Mobile-responsive design",
-        "Payment gateway integration",
-        "Admin dashboard with analytics",
-        "AI-powered job recommendations"
+        "Custom agent creation and training with data",
+        "Agents marketplace and apps hub",
+        "Shareable conversations with secure links",
+        "Private-by-design data handling",
+        "Agent workflows for common business tasks"
       ],
       "japanese_features": [
-        "リアルタイム在庫追跡",
-        "AI搭載ジョブレコメンデーション",
-        "多言語対応（英語/日本語/中国語）",
-        "モバイルレスポンシブデザイン",
-        "決済ゲートウェイ統合",
-        "分析機能付き管理ダッシュボード",
-        "AI搭載ジョブレコメンデーション"
+        "データ学習を含むカスタムエージェント作成",
+        "エージェントマーケットとアプリハブ",
+        "安全なリンクで会話共有",
+        "プライバシー重視の設計",
+        "業務タスク向けエージェントワークフロー"
       ],
-      "challenges": "Creating smooth animations that work across different devices while maintaining performance",
-      "japanese_challenges": "パフォーマンスを維持しながら、異なるデバイスで動作するスムーズなアニメーションの作成",
-      "solutions": "Used Lottie animations with optimized JSON files and implemented device-specific performance scaling",
-      "japanese_solutions": "最適化されたJSONファイルでLottieアニメーションを使用し、デバイス固有のパフォーマンススケーリングを実装",
+      "challenges": "Supporting a growing set of agent types and use cases while keeping onboarding simple and data handling safe.",
+      "japanese_challenges": "多様なエージェント用途を増やしつつ、オンボーディングの簡単さと安全なデータ取り扱いを両立すること。",
+      "solutions": "Standardized agent configuration, training flows, and privacy-first UX patterns across the product.",
+      "japanese_solutions": "エージェント設定・学習フロー・プライバシー重視のUXパターンを標準化。",
       "results": [
-        "4.8/5 App Store rating",
-        "50,000+ downloads",
-        "Featured in 'Apps We Love' section",
-        "95% user retention rate"
+        "Faster agent setup with reusable templates",
+        "Improved user trust with privacy positioning and UX",
+        "Expanded agent capabilities via marketplace model"
       ],
       "japanese_results": [
-        "App Store評価4.8/5",
-        "50,000回以上のダウンロード",
-        "「お気に入りアプリ」セクションで紹介",
-        "95%のユーザー継続率"
+        "テンプレートでエージェント構築を高速化",
+        "プライバシー重視のUXで信頼性を向上",
+        "マーケットモデルで機能拡張を促進"
       ],
       "images": [
-        "/images/projects/project-3.png"
+        "/project-placeholder.svg"
       ],
-      "demo_url": "https://misshelly.com/"
+      "live_url": "https://www.agent.so/"
     },
     {
       "id": 4,
-      "name": "5IVE GROUP",
-      "japanese_name": "5IVE GROUP",
-      "category": "Life",
-      "japanese_category": "教育",
+      "name": "WebAgent.ai",
+      "japanese_name": "WebAgent.ai",
+      "category": "Customer Support AI",
+      "japanese_category": "カスタマーサポートAI",
       "status": "Completed",
-      "japanese_status": "進行中",
-      "year": "2022",
-      "duration": "1 month",
-      "japanese_duration": "1ヶ月",
-      "description": "A comprehensive life management platform with microservices architecture, featuring real-time inventory management and AI-powered recommendations",
-      "japanese_description": "日本の文化的メタファーとゲーミフィケーションを通じてプログラミングを教えるインタラクティブなコーディング教育プラットフォーム",
+      "japanese_status": "完了",
+      "year": "2024",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "No-code AI support assistant trained on your data (sites/docs/text). Provides instant responses and lead capture with analytics.",
+      "japanese_description": "Webサイト・ドキュメント・テキストで学習するノーコードAIサポート。即時回答とリード獲得、分析に対応。",
       "technologies": [
-        "Next.js",
-        "TypeScript",
-        "Prisma",
-        "PostgreSQL",
-        "Tailwind CSS",
-        "Vercel",
-        "React/Next.js"
+        "RAG",
+        "Embeddings",
+        "Web widget",
+        "Analytics",
+        "OpenAI"
       ],
       "features": [
-        "Real-time inventory tracking",
-        "AI-powered job recommendations",
-        "Multi-language support (EN/JP/CN)",
-        "Mobile-responsive design",
-        "Payment gateway integration",
-        "Admin dashboard with analytics",
-        "AI-powered job recommendations"
+        "Train on website, documents, and text",
+        "24/7 customer support with brand-aligned responses",
+        "No-code customization of UI and behavior",
+        "Lead generation and meeting booking workflows",
+        "Conversation analytics and insights"
       ],
       "japanese_features": [
-        "インタラクティブなコーディングチャレンジ",
-        "日本の文化的学習メタファー",
-        "進捗追跡と実績システム",
-        "ピアコードレビューシステム",
-        "AI搭載コード提案",
-        "多言語対応"
+        "Web/ドキュメント/テキストで学習",
+        "24/7サポートとブランド整合の回答",
+        "ノーコードの見た目・挙動カスタマイズ",
+        "リード獲得・予約フロー",
+        "会話分析とインサイト"
       ],
-      "challenges": "Creating engaging educational content that bridges programming concepts with Japanese culture",
-      "japanese_challenges": "プログラミング概念と日本文化を結びつける魅力的な教育コンテンツの作成",
-      "solutions": "Developed a unique curriculum that uses Japanese martial arts principles to explain programming concepts",
-      "japanese_solutions": "プログラミング概念を説明するために日本の武道の原則を使用するユニークなカリキュラムを開発",
+      "challenges": "Providing accurate answers from customer-specific knowledge while remaining simple to set up and maintain for non-technical teams.",
+      "japanese_challenges": "顧客固有ナレッジから正確に回答しつつ、非技術者でも簡単に運用できること。",
+      "solutions": "Designed robust ingestion + retrieval flows and guided UI for configuration, plus analytics to improve content quality over time.",
+      "japanese_solutions": "取り込み・検索フローを堅牢化し、設定をガイドするUIと分析で継続改善を可能に。",
       "results": [
-        "500+ active learners",
-        "90% course completion rate",
-        "Featured in TechCrunch Japan",
-        "Partnership with 3 coding bootcamps"
+        "Reduced support load with instant self-service",
+        "Improved customer experience with consistent answers",
+        "Actionable insights from conversation analytics"
       ],
       "japanese_results": [
-        "500人以上のアクティブラーナー",
-        "90%のコース完了率",
-        "TechCrunch Japanで紹介",
-        "3つのコーディングブートキャンプとのパートナーシップ"
+        "セルフサービスでサポート負荷を削減",
+        "一貫した回答で顧客体験を向上",
+        "会話分析で改善ポイントを可視化"
       ],
       "images": [
-        "/images/projects/project-4.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://recruit.five-group.co.jp/"
+      "live_url": "https://webagent.ai/"
     },
     {
       "id": 5,
-      "name": "Dance",
-      "japanese_name": "Dance",
-      "category": "Cultural Heritage",
-      "japanese_category": "文化遺産",
+      "name": "Copy.ai",
+      "japanese_name": "Copy.ai",
+      "category": "GTM AI Platform",
+      "japanese_category": "GTM向けAI基盤",
       "status": "Completed",
-      "japanese_status": "進行中",
-      "year": "2023",
-      "duration": "3 months",
-      "japanese_duration": "1ヶ月",
-      "description": "It’s a Japanese vocational school in Kobe offering professional training in dance, music, and performance.",
-      "japanese_description": "これは、神戸にあるダンス・音楽・パフォーマンスの専門的な教育を提供する専門学校です。",
+      "japanese_status": "完了",
+      "year": "2024",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "AI-native go-to-market platform with workflows and agents to codify best practices, unify data, and automate GTM execution.",
+      "japanese_description": "ワークフローとエージェントでベストプラクティスを定義し、データを統合してGTM業務を自動化するAIネイティブ基盤。",
       "technologies": [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "AWS S3",
-        "ImageMagick",
-        "Next.js"
+        "LLMs",
+        "Workflows",
+        "Agents",
+        "Integrations",
+        "Data tables"
       ],
       "features": [
-        "Professional Dance & Music Training",
-        "Experienced Instructors & Industry Professionals",
-        "Overseas Study & Exchange Opportunities",
-        "Multi-Genre Dance Curriculum (Hip-Hop, Jazz, Ballet, etc.)",
-        "Performance & Stage Production Experience",
-        "State-of-the-Art Facilities & Studios",
-        "Career Support & Industry Connections"
+        "Workflow-based automation for GTM tasks",
+        "Agent building blocks with guardrails",
+        "Centralized knowledge/infobase and brand voice",
+        "Model-agnostic integration patterns",
+        "Large integration ecosystem"
       ],
       "japanese_features": [
-        "専門的なダンス・音楽教育",
-        "現役で活躍する講師・業界プロによる指導",
-        "海外留学・交流プログラム",
-        "多ジャンル対応のダンスカリキュラム（ヒップホップ、ジャズ、バレエなど）",
-        "舞台・ステージ制作を通じた実践的な経験",
-        "最新設備を備えたスタジオ・施設",
-        "最新設備を備えたスタジオ・施設"
+        "GTMタスクのワークフロー自動化",
+        "ガードレール付きエージェント構築",
+        "ナレッジ基盤とブランドボイス管理",
+        "モデル非依存の統合パターン",
+        "豊富な外部サービス連携"
       ],
-      "challenges": "Creating a platform that connects students with industry professionals and provides a comprehensive learning experience",
-      "japanese_challenges": "学生と業界プロフェッショナルをつなげ、総合的な学習体験を提供するプラットフォームの作成",
-      "solutions": "Developed custom scanning techniques and 3D rendering algorithms to capture paper texture and translucency",
-      "japanese_solutions": "紙の質感と半透明性を捉えるためのカスタムスキャニング技術と3Dレンダリングアルゴリズムを開発",
+      "challenges": "Avoiding point-solution sprawl while delivering secure, reliable automation across many GTM use cases.",
+      "japanese_challenges": "多数のGTM用途に対して、ポイントツール乱立を避けつつ、安全で信頼できる自動化を提供すること。",
+      "solutions": "Designed platform primitives (workflows, agents, tables) and safe guardrails so teams can scale automation consistently.",
+      "japanese_solutions": "ワークフロー・エージェント・テーブルなどの基盤プリミティブとガードレールで、一貫した自動化のスケールを実現。",
       "results": [
-        "1,000+ digitized paper samples",
-        "Partnership with 5 museums",
-        "UNESCO cultural preservation recognition",
-        "Used by 20+ educational institutions"
+        "Faster GTM execution through workflow automation",
+        "More consistent outputs via codified best practices",
+        "Improved cross-team alignment with shared data foundation"
       ],
       "japanese_results": [
-        "1,000以上のデジタル化された紙サンプル",
-        "5つの博物館とのパートナーシップ",
-        "UNESCO文化保存認定",
-        "20以上の教育機関で使用"
+        "ワークフロー自動化でGTM実行を高速化",
+        "ベストプラクティスの定義で出力が安定",
+        "共通データ基盤で連携を強化"
       ],
       "images": [
-        "/images/projects/project-5.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://www.music.ac.jp/dance/"
+      "live_url": "https://copy.ai"
     },
     {
       "id": 6,
-      "name": "通信制大学 星槎大学",
-      "japanese_name": "通信制大学 星槎大学",
-      "category": "Children's Education",
-      "japanese_category": "開発者ツール",
+      "name": "Stackpack AI",
+      "japanese_name": "Stackpack AI",
+      "category": "Document AI",
+      "japanese_category": "ドキュメントAI",
       "status": "Completed",
-      "japanese_status": "進行中",
-      "year": "2024",
-      "duration": "4 months",
-      "japanese_duration": "4ヶ月",
-      "description": "Seisa University is a distance-learning university in Japan offering programs in inclusive education, welfare, sports & physical expression, and global/local communication, with a focus on “living together” in diversity.",
-      "japanese_description": "星槎大学は、日本で通信制の大学として、「共生」を重視しながら、教育・福祉・スポーツ身体表現・グローカルコミュニケーションなどの学問分野を提供しています。",
+      "japanese_status": "完了",
+      "year": "2025",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "Vendor intelligence platform that syncs spend data, extracts contract terms with AI, and answers finance questions instantly.",
+      "japanese_description": "支出データを同期し、契約書から条項をAIで抽出し、財務の質問に即答するベンダーインテリジェンス基盤。",
       "technologies": [
-        "Vue.js",
-        "Laravel",
-        "MySQL",
-        "WebSocket",
-        "Chart.js",
-        "Docker"
+        "LLMs",
+        "OCR",
+        "Document extraction",
+        "Integrations",
+        "Security"
       ],
       "features": [
-        "Visual bug lifecycle management",
-        "Kintsugi-inspired UI design",
-        "Seamless team collaboration tools",
-        "Intelligent bug pattern analysis",
-        "Automated testing integration",
-        "Real-time performance impact tracking"
+        "Automated contract term extraction",
+        "Natural-language Q&A over contracts and spend",
+        "Renewal risk and duplicate vendor analysis",
+        "Accounting system sync",
+        "Secure data handling for finance workflows"
       ],
       "japanese_features": [
-        "視覚的なバグライフサイクル管理",
-        "金継ぎから着想を得たUIデザイン",
-        "シームレスなチームコラボレーションツール",
-        "高度なバグパターン分析",
-        "自動テストの統合",
-        "リアルタイムのパフォーマンス影響追跡"
+        "契約条項の自動抽出",
+        "契約・支出に対する自然言語Q&A",
+        "更新リスクと重複ベンダー分析",
+        "会計システムとの同期",
+        "財務データの安全な取り扱い"
       ],
-      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
-      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
-      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
-      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "challenges": "Extracting accurate terms from messy real-world contracts and making answers trustworthy for finance decisions.",
+      "japanese_challenges": "現実の契約書のノイズから正確に条項を抽出し、意思決定に耐える信頼性を担保すること。",
+      "solutions": "Combined extraction pipelines with verification UX, structured outputs, and QA processes to reduce errors and increase trust.",
+      "japanese_solutions": "抽出パイプラインに検証UXと構造化出力、QAを組み合わせ、誤りを減らして信頼性を向上。",
       "results": [
-        "40% faster bug resolution time",
-        "85% developer satisfaction rate",
-        "60% reduction in bug recurrence",
-        "Adopted by 10+ development teams"
+        "Faster access to contract and spend insights",
+        "Reduced manual spreadsheet tracking",
+        "Improved renewal visibility and compliance"
       ],
       "japanese_results": [
-        "バグ解決時間40%短縮",
-        "85%の開発者満足度",
-        "バグ再発率60%削減",
-        "10以上の開発チームで採用"
+        "契約・支出の洞察を高速化",
+        "手作業のスプレッドシート管理を削減",
+        "更新の可視性とコンプライアンスを改善"
       ],
       "images": [
-        "/images/projects/project-6.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://seisa.ac.jp/"
+      "live_url": "https://www.stackpack.ai"
     },
     {
       "id": 7,
-      "name": "Lie:verse Liars",
-      "japanese_name": "公式サイト",
-      "category": "Children's Education",
-      "japanese_category": "開発者ツール",
+      "name": "mpathic AI",
+      "japanese_name": "mpathic AI",
+      "category": "AI Safety",
+      "japanese_category": "AI安全性",
       "status": "Completed",
-      "japanese_status": "進行中",
+      "japanese_status": "完了",
       "year": "2024",
-      "duration": "4 months",
-      "japanese_duration": "4ヶ月",
-      "description": "Lie:verse Liars is the official site for a multimedia / character-story IP (novels, merchandise, radio show) set in a world where lies and truths are switched.",
-      "japanese_description": "「Lie:verse Liars（リーバース・ライアーズ）」は、嘘と真実が入れ替わった世界を舞台に、小説、商品展開、ラジオ番組などを扱うマルチメディアキャラクター作品の公式サイトです。",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "Human-centered AI safety infrastructure: expert-backed ground-truth datasets, safety evaluation, and feedback loops for high-risk conversational systems.",
+      "japanese_description": "人間中心のAI安全性基盤。専門家によるグラウンドトゥルースデータ、評価、フィードバックループで高リスク領域の対話AIを安全に。",
       "technologies": [
-        "Vue.js",
-        "Nuxt.js",
-        "MySQL",
-        "Tailwind CSS",
-        "Vercel",
-        "AWS"
+        "Safety evaluation",
+        "Red teaming",
+        "Datasets",
+        "Feedback loops",
+        "APIs"
       ],
       "features": [
-        "Visual bug lifecycle management",
-        "Kintsugi-inspired UI design",
-        "Seamless team collaboration tools",
-        "Advanced bug pattern analysis",
-        "Automated testing integration",
-        "Real-time performance impact tracking"
+        "Expert-led ground-truth data creation",
+        "Red teaming and benchmarking workflows",
+        "Safety calibration across model lifecycle",
+        "Structured feedback and continuous improvement",
+        "Support for high-risk domains (health, mental health, kids)"
       ],
       "japanese_features": [
-        "視覚的なバグライフサイクル管理",
-        "金継ぎをモチーフにしたUIデザイン",
-        "シームレスなチームコラボレーションツール",
-        "高度なバグパターン分析",
-        "自動テスト統合",
-        "リアルタイムでのパフォーマンス影響追跡"
+        "専門家主導のグラウンドトゥルース作成",
+        "レッドチーミングとベンチマーク",
+        "モデルライフサイクル全体の安全性調整",
+        "構造化フィードバックと継続改善",
+        "高リスク領域（医療、メンタル、子ども等）に対応"
       ],
-      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
-      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
-      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
-      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "challenges": "Evaluating nuanced human-risk interactions at scale while reducing bias and variability.",
+      "japanese_challenges": "人間のリスクに関わる微妙な相互作用を、大規模に評価しつつ、バイアスとばらつきを抑えること。",
+      "solutions": "Built expert-in-the-loop pipelines and structured evaluation frameworks that translate qualitative safety into measurable signals.",
+      "japanese_solutions": "専門家を組み込んだパイプラインと構造化評価フレームワークで、定性的安全性を測定可能な指標へ変換。",
       "results": [
-        "40% faster bug resolution time",
-        "85% developer satisfaction rate",
-        "60% reduction in bug recurrence",
-        "Adopted by 10+ development teams"
+        "More reliable safety evaluation across scenarios",
+        "Faster iteration on policies and guardrails",
+        "Improved confidence for high-risk deployments"
       ],
       "japanese_results": [
-        "バグ解決時間40%短縮",
-        "85%の開発者満足度",
-        "バグ再発率60%削減",
-        "10以上の開発チームで採用"
+        "シナリオ横断で安全性評価が安定",
+        "ポリシーとガードレール改善が高速化",
+        "高リスク領域の本番運用の信頼性を向上"
       ],
       "images": [
-        "/images/projects/project-7.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://www.lieverse-liars.jp/"
+      "live_url": "http://www.mpathic.ai"
     },
     {
       "id": 8,
-      "name": "マグノリア･ホワイト",
-      "japanese_name": "マグノリア･ホワイト",
-      "category": "Children's Education",
-      "japanese_category": "開発者ツール",
+      "name": "Trivver",
+      "japanese_name": "Trivver",
+      "category": "Spatial AI",
+      "japanese_category": "空間AI",
       "status": "Completed",
-      "japanese_status": "進行中",
-      "year": "2025",
-      "duration": "4 months",
-      "japanese_duration": "4ヶ月",
-      "description": "Tapple is a popular Japanese dating/matching-app by CyberAgent that helps users meet potential romantic partners based on shared hobbies and interests, with safety features like identity verification and 24/7 support.",
-      "japanese_description": "「タップル」は、趣味や関心をきっかけに出会いたい人々をつなげる、サイバーエージェント運営の人気マッチングアプリで、本人確認や24時間365日のサポートなど安心・安全機能が備わっています。",
+      "japanese_status": "完了",
+      "year": "2024",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "Measurement and monetization layer for spatial AI: real-time object interaction analytics and contextual engagement signals for XR experiences.",
+      "japanese_description": "空間AIの計測・マネタイズ基盤。XR環境でのオブジェクト相互作用と文脈エンゲージメントをリアルタイムに解析。",
       "technologies": [
-        "Wordpress",
-        "PHP",
-        "MySQL",
-        "AWS",
-        "Nginx",
-        "SSL"
+        "Real-time analytics",
+        "Computer vision",
+        "XR",
+        "Context modeling",
+        "Data pipelines"
       ],
       "features": [
-        "Visual bug lifecycle management",
-        "Kintsugi-inspired UI design",
-        "Seamless team collaboration tools",
-        "Advanced bug pattern analysis",
-        "Automated testing integration",
-        "Real-time performance impact tracking"
+        "Real-time object interaction measurement",
+        "Contextual engagement and viewability metrics",
+        "Adaptive experiences powered by behavior signals",
+        "Use cases across training, retail, and advertising",
+        "Instrumentation framework for 3D environments"
       ],
       "japanese_features": [
-        "視覚的なバグライフサイクル管理",
-        "金継ぎをモチーフにしたUIデザイン",
-        "シームレスなチームコラボレーションツール",
-        "高度なバグパターン分析",
-        "自動テスト統合",
-        "リアルタイムのパフォーマンス影響追跡"
+        "オブジェクト相互作用のリアルタイム計測",
+        "文脈エンゲージメントと視認性指標",
+        "行動信号に基づく適応体験",
+        "訓練・小売・広告などのユースケース",
+        "3D環境向け計測フレームワーク"
       ],
-      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
-      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
-      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
-      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "challenges": "Capturing and attributing engagement in 3D environments with low latency and high fidelity.",
+      "japanese_challenges": "3D環境におけるエンゲージメントを、低レイテンシかつ高精度に計測し、帰属させること。",
+      "solutions": "Built real-time pipelines and object-level instrumentation with robust metrics definitions and scalable reporting.",
+      "japanese_solutions": "リアルタイムパイプラインとオブジェクト単位の計測を整備し、指標定義とスケール可能なレポートを構築。",
       "results": [
-        "40% faster bug resolution time",
-        "85% developer satisfaction rate",
-        "60% reduction in bug recurrence",
-        "Adopted by 10+ development teams"
+        "Richer measurement for spatial experiences",
+        "Improved optimization loops via real-time signals",
+        "Clearer reporting for partners and advertisers"
       ],
       "japanese_results": [
-        "バグ解決時間40%短縮",
-        "85%の開発者満足度",
-        "バグ再発率60%削減",
-        "10以上の開発チームで採用"
+        "空間体験の計測が高度化",
+        "リアルタイム信号で最適化サイクルを改善",
+        "パートナー向けレポートを明確化"
       ],
       "images": [
-        "/images/projects/project-8.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://tapple.me/"
+      "live_url": "https://trivver.com"
     },
     {
       "id": 9,
-      "name": "タップル – 恋活･婚活マッチングアプリ【公式】",
-      "japanese_name": "タップル – 恋活･婚活マッチングアプリ【公式】",
-      "category": "Children's Education",
-      "japanese_category": "開発者ツール",
+      "name": "Autonomous AI Agents",
+      "japanese_name": "Autonomous AI Agents",
+      "category": "Agent Automation",
+      "japanese_category": "エージェント自動化",
       "status": "Completed",
-      "japanese_status": "進行中",
+      "japanese_status": "完了",
       "year": "2025",
-      "duration": "4 months",
-      "japanese_duration": "4ヶ月",
-      "description": "MAGNOLIA WHITE is an import-dress salon in Japan that selects the trendiest bridal gowns from New York, London, Paris, etc., and offers custom coordination for customers’ special moments.",
-      "japanese_description": "MAGNOLIA WHITE（マグノリア・ホワイト）は、ニューヨーク・ロンドン・パリなどの最旬インポートウエディングドレスをセレクトし、人生の特別な日のためにお客様に合ったコーディネートを提案するインポートドレスサロンです。",
+      "duration": "Ongoing",
+      "japanese_duration": "継続中",
+      "description": "AI agent solutions for lead generation, chat, voice, and workflow automation, designed to reduce busywork and scale customer operations.",
+      "japanese_description": "リード獲得、チャット、音声、業務自動化のAIエージェント。雑務を減らし、顧客対応と運用をスケール。",
       "technologies": [
-        "Wordpress",
-        "PHP",
-        "MySQL",
-        "AWS",
-        "Nginx",
-        "SSL"
+        "LLMs",
+        "Voice agents",
+        "Chat agents",
+        "Workflow automation",
+        "Integrations"
       ],
       "features": [
-        "Visual bug lifecycle management",
-        "Kintsugi-inspired UI design",
-        "Seamless team collaboration tools",
-        "Advanced bug pattern analysis",
-        "Automated testing integration",
-        "Real-time performance impact tracking"
+        "AI lead generation workflows",
+        "24/7 chat agents for instant responses",
+        "Voice agents for call handling and booking",
+        "Automations to reduce manual operations",
+        "Discovery and deployment process for SMEs"
       ],
       "japanese_features": [
-        "視覚的なバグライフサイクル管理",
-        "金継ぎにインスパイアされたUIデザイン",
-        "シームレスなチームコラボレーションツール",
-        "高度なバグパターン分析",
-        "自動テスト統合",
-        "リアルタイムのパフォーマンス影響追跡"
+        "AIリード獲得ワークフロー",
+        "即時回答の24/7チャットエージェント",
+        "通話対応・予約の音声エージェント",
+        "手作業を減らす業務自動化",
+        "SME向けの導入プロセス"
       ],
-      "challenges": "Creating a positive mindset around bug fixing while maintaining technical accuracy and efficiency",
-      "japanese_challenges": "技術的精度と効率性を維持しながら、バグ修正に対するポジティブなマインドセットを作成",
-      "solutions": "Implemented gamification elements and positive reinforcement to reframe bug fixing as a creative problem-solving process",
-      "japanese_solutions": "バグ修正を創造的な問題解決プロセスとして再構築するために、ゲーミフィケーション要素とポジティブ強化を実装",
+      "challenges": "Making agent deployments practical for SMEs with clear ROI while maintaining reliable behavior across channels.",
+      "japanese_challenges": "SMEでもROIが明確に出る形で導入し、チャネル横断で安定した挙動を維持すること。",
+      "solutions": "Packaged repeatable agent workflows with clear onboarding, monitoring, and escalation paths to humans when needed.",
+      "japanese_solutions": "再利用可能なワークフロー、オンボーディング、監視、必要時の人へのエスカレーションをパッケージ化。",
       "results": [
-        "40% faster bug resolution time",
-        "85% developer satisfaction rate",
-        "60% reduction in bug recurrence",
-        "Adopted by 10+ development teams"
+        "Reduced manual workload through automation",
+        "Improved responsiveness with 24/7 availability",
+        "Scalable deployments across multiple channels"
       ],
       "japanese_results": [
-        "バグ解決時間40%短縮",
-        "85%の開発者満足度",
-        "バグ再発率60%削減",
-        "10以上の開発チームで採用"
+        "自動化で手作業を削減",
+        "24/7対応で応答性を改善",
+        "複数チャネルへの展開をスケール"
       ],
       "images": [
-        "/images/projects/project-9.png"
+        "/project-placeholder.svg"
       ],
-      "live_url": "https://jp.magnolia-white.com/"
+      "live_url": "https://autonomousaiagents.io"
     }
   ],
   "project_categories": [
     {
-      "name": "E-commerce",
-      "japanese_name": "ECサイト",
+      "name": "Enterprise Agent Platform",
+      "japanese_name": "エンタープライズAI基盤",
       "count": 1,
-      "description": "Online shopping platforms and digital commerce solutions"
+      "description": "Enterprise platforms for deploying AI agents with governance and observability"
     },
     {
-      "name": "Productivity",
-      "japanese_name": "生産性ツール",
+      "name": "AI Agent Platform",
+      "japanese_name": "AIエージェント基盤",
       "count": 1,
-      "description": "Tools to enhance workflow and team collaboration"
+      "description": "Build, train, and deploy agents with integrations and human oversight"
     },
     {
-      "name": "Mobile App",
-      "japanese_name": "モバイルアプリ",
+      "name": "AI Agents Network",
+      "japanese_name": "AIエージェントネットワーク",
       "count": 1,
-      "description": "Native and cross-platform mobile applications"
+      "description": "Agent marketplaces and portals for rapid agent creation and training"
     },
     {
-      "name": "Education",
-      "japanese_name": "教育",
+      "name": "Customer Support AI",
+      "japanese_name": "カスタマーサポートAI",
       "count": 1,
-      "description": "Learning platforms and educational technology"
+      "description": "RAG-powered assistants for support, self-service, and lead capture"
     },
     {
-      "name": "Cultural Heritage",
-      "japanese_name": "文化遺産",
+      "name": "GTM AI Platform",
+      "japanese_name": "GTM向けAI基盤",
       "count": 1,
-      "description": "Digital preservation and cultural documentation"
+      "description": "Workflow and agent platforms for go-to-market automation"
     },
     {
-      "name": "Developer Tools",
-      "japanese_name": "開発者ツール",
+      "name": "Document AI",
+      "japanese_name": "ドキュメントAI",
       "count": 1,
-      "description": "Tools and utilities for software development"
+      "description": "Extraction and Q&A over contracts and business documents"
+    },
+    {
+      "name": "AI Safety",
+      "japanese_name": "AI安全性",
+      "count": 1,
+      "description": "Safety evaluation, red teaming, and expert-grounded benchmarks"
+    },
+    {
+      "name": "Spatial AI",
+      "japanese_name": "空間AI",
+      "count": 1,
+      "description": "Real-time measurement and intelligence for XR and spatial experiences"
+    },
+    {
+      "name": "Agent Automation",
+      "japanese_name": "エージェント自動化",
+      "count": 1,
+      "description": "Automation-focused agents for lead gen, chat, voice, and operations"
     }
   ],
   "project_stats": {
-    "total_projects": 6,
-    "japanese_total_projects": "6",
-    "completed_projects": 5,
-    "japanese_completed_projects": "5",
-    "in_progress": 1,
-    "japanese_in_progress": "1",
-    "technologies_used": 25,
-    "japanese_technologies_used": "25",
-    "total_users_impacted": "100,000+",
-    "japanese_total_users_impacted": "10万人以上"
+    "total_projects": 9,
+    "japanese_total_projects": "9",
+    "completed_projects": 9,
+    "japanese_completed_projects": "9",
+    "in_progress": 0,
+    "japanese_in_progress": "0",
+    "technologies_used": 26,
+    "japanese_technologies_used": "26",
+    "total_users_impacted": "Enterprise, SMB, and consumer users",
+    "japanese_total_users_impacted": "エンタープライズからSMB、一般ユーザーまで"
   }
 }

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useLanguage } from '../contexts/LanguageContext'
 import { loadPortfolioData, getLocalizedText } from '../utils/dataLoader'
-import { Mail, MapPin, Clock, CheckCircle } from 'lucide-react'
+import { Mail, MapPin, Clock, CheckCircle, Phone } from 'lucide-react'
 
 const TelegramIcon: React.FC<{ className?: string }> = ({ className }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
@@ -30,6 +30,13 @@ const Contact: React.FC = () => {
       value: cd.contact_info.email.address,
       href:  `https://mail.google.com/mail/?view=cm&to=${cd.contact_info.email.address}`,
       note:  getLocalizedText(cd.contact_info.email, 'description', language),
+    },
+    {
+      Icon: Phone,
+      label: getLocalizedText(cd.contact_info.phone, 'label', language),
+      value: getLocalizedText(cd.contact_info.phone, 'number', language),
+      href:  'tel:+817093583639',
+      note:  getLocalizedText(cd.contact_info.phone, 'description', language),
     },
     {
       Icon: TelegramIcon,

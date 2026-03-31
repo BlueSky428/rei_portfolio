@@ -5,15 +5,15 @@
   "profile": {
     "name": "Rei Fujimoto",
     "japanese_name": "藤本麗",
-    "title": "Senior Software Engineer",
-    "japanese_title": "シニアソフトウェアエンジニア",
+    "title": "AI Engineer",
+    "japanese_title": "AIエンジニア",
     "photo_url": "/profile-photo.svg",
     "location": "Tokyo, Japan",
     "japanese_location": "東京都"
   },
   "introduction": {
-    "english": "I am a dedicated software engineer with over 8 years of experience in developing modern web applications and digital solutions. Based in Tokyo, I specialize in creating clean, efficient code that delivers exceptional user experiences. My approach combines technical expertise with a deep understanding of user needs, ensuring every project meets both functional and aesthetic standards. I believe in continuous learning and staying current with emerging technologies to provide innovative solutions. My goal is to contribute meaningfully to the tech community while maintaining the highest standards of professionalism and quality.",
-    "japanese": "8年以上の経験を持つ献身的なソフトウェアエンジニアです。モダンなWebアプリケーションとデジタルソリューションの開発に従事しています。東京を拠点に、優れたユーザー体験を提供するクリーンで効率的なコードの作成を専門としています。技術的専門知識とユーザーニーズの深い理解を組み合わせ、すべてのプロジェクトが機能性と美的基準の両方を満たすよう努めています。継続的な学習を信条とし、革新的なソリューションを提供するため最新技術の習得に励んでいます。最高水準のプロフェッショナリズムと品質を維持しながら、テックコミュニティに有意義な貢献をすることが目標です。"
+    "english": "AI engineer focused on large language models, multimodal systems, and prompt engineering. I design and operate semantic search, model evaluation, and multi-model routing for production platforms. My toolkit spans Python, JavaScript, TypeScript, SQL, and shell scripting, with hands-on experience in PyTorch and API integration. I care about scalable AI infrastructure and dependable, high-quality user experiences.",
+    "japanese": "大規模言語モデル、マルチモーダルAI、プロンプトエンジニアリングを中心に取り組むAIエンジニアです。本番環境向けにセマンティック検索、モデル評価、マルチモデルルーティングを設計・運用しています。Python、JavaScript、TypeScript、SQL、シェルスクリプトを使いこなし、PyTorchとAPI統合の実務経験があります。スケーラブルなAI基盤と、安定した高品質なユーザー体験の両立を目指しています。"
   },
   "professional_values": [
     {
@@ -24,24 +24,24 @@
       "icon": "puzzle-piece"
     },
     {
-      "title": "Clean Code",
-      "japanese_title": "クリーンコード",
-      "description": "Writing maintainable, readable, and efficient code is my passion",
-      "japanese_description": "保守性、可読性、効率性を兼ね備えたコードを書くことが私の情熱です",
+      "title": "Reliable Systems",
+      "japanese_title": "信頼できるシステム",
+      "description": "Rigorous evaluation, monitoring, and clear specs before production rollout",
+      "japanese_description": "本番投入前に評価・監視・要件定義を徹底し、運用の再現性を高めます",
       "icon": "code"
     },
     {
-      "title": "Teamwork",
-      "japanese_title": "チームワーク",
-      "description": "Collaborating effectively with diverse teams to achieve common goals",
-      "japanese_description": "多様なチームと効果的に協力し、共通の目標を達成します",
+      "title": "Collaboration",
+      "japanese_title": "協働",
+      "description": "Working across product, data, and engineering to align on ML objectives",
+      "japanese_description": "プロダクト・データ・エンジニアリングと連携し、ML目標を揃えます",
       "icon": "users"
     },
     {
       "title": "Continuous Learning",
       "japanese_title": "継続的学習",
-      "description": "Always staying updated with latest technologies and best practices",
-      "japanese_description": "最新技術とベストプラクティスを常に学び続けています",
+      "description": "Keeping pace with research and industry practice in fast-moving AI",
+      "japanese_description": "変化の速いAI領域で研究動向と実務のベストプラクティスを学び続けます",
       "icon": "graduation-cap"
     }
   ],
@@ -49,8 +49,8 @@
     {
       "category": "Languages",
       "japanese_category": "言語",
-      "items": ["Japanese (Native)", "English (Fluent)", "Chinese (Conversational)"],
-      "japanese_items": ["日本語（母語）", "英語（流暢）", "中国語（会話レベル）"]
+      "items": ["Japanese (Native)", "English (Fluent)"],
+      "japanese_items": ["日本語（母語）", "英語（流暢）"]
     },
     {
       "category": "Interests",
@@ -66,35 +66,26 @@
     }
   ],
   "career_mission": {
-    "english": "To bridge the gap between cutting-edge technology and traditional Japanese values, creating software that not only solves problems but also enhances human connection and cultural understanding.",
-    "japanese": "最先端技術と日本の伝統的価値観の架け橋となり、問題を解決するだけでなく、人間のつながりと文化的理解を深めるソフトウェアを作ることです。"
+    "english": "To build production AI platforms that are honest about their limits, measurable in quality, and genuinely useful to the people who rely on them.",
+    "japanese": "限界を明確にし、品質を測定でき、利用者に真に役立つ本番向けAIプラットフォームを構築すること。"
   },
   "education": [
     {
       "id": 1,
-      "degree": "Master of Science",
-      "japanese_degree": "修士（情報工学）",
+      "degree": "Bachelor of Science",
+      "japanese_degree": "学士（理学）",
       "field": "Computer Science",
       "japanese_field": "コンピュータサイエンス",
-      "university": "Tohoku Institute of Technology",
-      "japanese_university": "東北工業大学",
-      "location": "Sendai, Japan",
-      "japanese_location": "仙台市、日本",
-      "period": "2016 - 2018",
-      "japanese_period": "2016年 - 2018年"
-    },
-    {
-      "id": 2,
-      "degree": "Bachelor of Science",
-      "japanese_degree": "学士（情報工学）",
-      "field": "Information Engineering",
-      "japanese_field": "情報工学",
-      "university": "Hokuriku Regional University",
-      "japanese_university": "北陸地域大学",
-      "location": "Kanazawa, Japan",
-      "japanese_location": "金沢市、日本",
+      "university": "University of Tokyo",
+      "japanese_university": "東京大学",
+      "location": "Tokyo, Japan",
+      "japanese_location": "東京都、日本",
       "period": "2012 - 2016",
-      "japanese_period": "2012年 - 2016年"
+      "japanese_period": "2012年 - 2016年",
+      "gpa": "First Class Honours",
+      "japanese_gpa": "優等（First Class Honours）",
+      "honours": "First Class Honours",
+      "japanese_honours": "優等学位（First Class Honours）"
     }
   ]
 }

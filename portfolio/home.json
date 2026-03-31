@@ -1,8 +1,8 @@
 {
   "section": "home",
   "title": "Rei Fujimoto",
-  "subtitle": "Software Engineer & Full-Stack Developer",
-  "description": "Passionate about creating innovative solutions and bridging technology with Japanese culture",
+  "subtitle": "AI Engineer",
+  "description": "LLMs, multimodal AI, and production platforms - with a focus on semantic search, evaluation, and routing at scale.",
   "cta": {
     "text": "View My Work",
     "link": "#projects"
@@ -66,8 +66,8 @@
   "languages": {
     "japanese": {
       "title": "藤本麗",
-      "subtitle": "ソフトウェアエンジニア・フルスタック開発者",
-      "description": "革新的なソリューションの創造と日本文化とテクノロジーの架け橋に情熱を注いでいます",
+      "subtitle": "AIエンジニア",
+      "description": "LLM・マルチモーダルAI・本番プラットフォーム。セマンティック検索、評価、大規模ルーティングを専門とします。",
       "cta": {
         "text": "制作実績を見る",
         "link": "#projects"
@@ -75,8 +75,8 @@
     },
     "english": {
       "title": "Rei Fujimoto",
-      "subtitle": "Software Engineer & Full-Stack Developer",
-      "description": "Passionate about creating innovative solutions and bridging technology with Japanese culture",
+      "subtitle": "AI Engineer",
+      "description": "LLMs, multimodal AI, and production platforms - with a focus on semantic search, evaluation, and routing at scale.",
       "cta": {
         "text": "View My Work",
         "link": "#projects"

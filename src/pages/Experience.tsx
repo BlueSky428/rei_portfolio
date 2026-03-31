@@ -147,26 +147,6 @@ const Experience: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* ── Specializations ──────────────────────────────────── */}
-      <section className="section-padding bg-white border-t border-soft-200">
-        <div className="container-max">
-          <motion.div {...fade(0)} className="mb-10">
-            <div className="section-label">· {language === 'ja' ? '専門分野' : 'Specializations'}</div>
-            <h2>{language === 'ja' ? '専門分野' : 'Specializations'}</h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-soft-200">
-            {xp.specializations.map((s, i) => (
-              <motion.div key={s.area} {...fade(i * 0.08)}
-                className="bg-white px-8 py-7 hover:bg-soft-50 transition-colors duration-200">
-                <h4 className="mb-1">{getLocalizedText(s, 'area', language)}</h4>
-                <p className="font-mono text-xs text-beni-600">{getLocalizedText(s, 'expertise_level', language)}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

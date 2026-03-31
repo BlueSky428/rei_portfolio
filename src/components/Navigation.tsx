@@ -13,7 +13,7 @@ const Navigation: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 60)
-      const sections = ['home','about','experience','education','projects','skills','achievements','testimonials','blog','gallery','contact']
+      const sections = ['home','about','experience','education','specializations','projects','skills','achievements','testimonials','blog','gallery','contact']
       const offset    = window.scrollY + 120
       for (const s of sections) {
         const el = document.getElementById(s)
@@ -29,6 +29,7 @@ const Navigation: React.FC = () => {
   const navItems = [
     { en: 'About',       ja: '自己紹介',     id: 'about'       },
     { en: 'Experience',  ja: '経歴',          id: 'experience'  },
+    { en: 'Education',   ja: '学歴',          id: 'education'   },
     { en: 'Projects',    ja: '制作実績',      id: 'projects'    },
     { en: 'Skills',      ja: 'スキル',        id: 'skills'      },
     { en: 'Contact',     ja: 'お問い合わせ',  id: 'contact'     },
