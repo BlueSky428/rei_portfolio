@@ -68,7 +68,7 @@ const Contact: React.FC = () => {
       <section className="section-padding">
         <div className="container-max">
           <motion.div {...fade(0)}>
-            <div className="section-label">08 · {language === 'ja' ? 'お問い合わせ' : 'Contact'}</div>
+            <div className="section-label">{language === 'ja' ? 'お問い合わせ' : 'Contact'}</div>
             <h1 className="mb-3">{getLocalizedText(cd, 'title', language)}</h1>
             <p className="font-sans text-soft-500 max-w-xl">
               {getLocalizedText(cd, 'description', language)}

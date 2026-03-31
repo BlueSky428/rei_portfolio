@@ -74,7 +74,7 @@ const Specializations: React.FC = () => {
       <section className="section-padding">
         <div className="container-max">
           <motion.div {...fade(0)} className="mb-12">
-            <div className="section-label">04 · {language === 'ja' ? '専門分野' : 'Specializations'}</div>
+            <div className="section-label">{language === 'ja' ? '専門分野' : 'Specializations'}</div>
             <h1 className="mb-3">{language === 'ja' ? '専門分野' : 'Specializations'}</h1>
             <p className="font-sans text-soft-500 max-w-3xl">
               {language === 'ja'

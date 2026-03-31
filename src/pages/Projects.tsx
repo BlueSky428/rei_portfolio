@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
       <section className="section-padding">
         <div className="container-max">
           <motion.div {...fade(0)}>
-            <div className="section-label">04 · {language === 'ja' ? '制作実績' : 'Projects'}</div>
+            <div className="section-label">{language === 'ja' ? '制作実績' : 'Projects'}</div>
             <h1 className="mb-3">{getLocalizedText(projectsData, 'title', language)}</h1>
             <p className="font-sans text-soft-500">
               {language === 'ja'

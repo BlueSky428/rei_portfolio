@@ -24,7 +24,7 @@ const Education: React.FC = () => {
       <section className="section-padding">
         <div className="container-max">
           <motion.div {...fade(0)}>
-            <div className="section-label">03 · {language === 'ja' ? '学歴' : 'Education'}</div>
+            <div className="section-label">{language === 'ja' ? '学歴' : 'Education'}</div>
             <h1 className="mb-3">{language === 'ja' ? '学歴' : 'Education'}</h1>
             <p className="font-sans text-soft-500">
               {language === 'ja' ? '学術的基盤と専門知識の形成' : 'Academic foundation and professional knowledge formation'}

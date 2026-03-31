@@ -9,12 +9,6 @@
         "japanese_title": "ナビゲーション",
         "links": [
           {
-            "text": "Home",
-            "japanese_text": "ホーム",
-            "url": "#home",
-            "japanese_url": "#home"
-          },
-          {
             "text": "About",
             "japanese_text": "自己紹介",
             "url": "#about",
@@ -25,6 +19,12 @@
             "japanese_text": "経歴",
             "url": "#experience",
             "japanese_url": "#experience"
+          },
+          {
+            "text": "Education",
+            "japanese_text": "学歴",
+            "url": "#education",
+            "japanese_url": "#education"
           },
           {
             "text": "Projects",
@@ -47,43 +47,6 @@
         ]
       },
       {
-        "title": "Resources",
-        "japanese_title": "リソース",
-        "links": [
-          {
-            "text": "Blog",
-            "japanese_text": "ブログ",
-            "url": "#blog",
-            "japanese_url": "#blog"
-          },
-          {
-            "text": "Gallery",
-            "japanese_text": "ギャラリー",
-            "url": "#gallery",
-            "japanese_url": "#gallery"
-          },
-          {
-            "text": "Live portfolio",
-            "japanese_text": "ポートフォリオサイト",
-            "url": "https://rei-portfolio.alpha.vercel.app/",
-            "japanese_url": "https://rei-portfolio.alpha.vercel.app/",
-            "external": true
-          },
-          {
-            "text": "Testimonials",
-            "japanese_text": "推薦の言葉",
-            "url": "#testimonials",
-            "japanese_url": "#testimonials"
-          },
-          {
-            "text": "Achievements",
-            "japanese_text": "実績・資格",
-            "url": "#achievements",
-            "japanese_url": "#achievements"
-          }
-        ]
-      },
-      {
         "title": "Connect",
         "japanese_title": "つながる",
         "links": [
@@ -100,36 +63,6 @@
             "url": "https://t.me/rentsuki320",
             "japanese_url": "https://t.me/rentsuki320",
             "external": true
-          }
-        ]
-      },
-      {
-        "title": "Services",
-        "japanese_title": "サービス",
-        "links": [
-          {
-            "text": "Web Development",
-            "japanese_text": "Web開発",
-            "url": "#contact?service=web_development",
-            "japanese_url": "#contact?service=web_development"
-          },
-          {
-            "text": "Mobile Apps",
-            "japanese_text": "モバイルアプリ",
-            "url": "#contact?service=mobile_apps",
-            "japanese_url": "#contact?service=mobile_apps"
-          },
-          {
-            "text": "Consulting",
-            "japanese_text": "コンサルティング",
-            "url": "#contact?service=consulting",
-            "japanese_url": "#contact?service=consulting"
-          },
-          {
-            "text": "Mentoring",
-            "japanese_text": "メンタリング",
-            "url": "#contact?service=mentoring",
-            "japanese_url": "#contact?service=mentoring"
           }
         ]
       }

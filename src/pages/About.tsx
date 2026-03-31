@@ -31,7 +31,7 @@ const About: React.FC = () => {
       <section className="section-padding">
         <div className="container-max">
           <motion.div {...fade(0)}>
-            <div className="section-label">01 · {language === 'ja' ? '自己紹介' : 'About'}</div>
+            <div className="section-label">{language === 'ja' ? '自己紹介' : 'About'}</div>
             <h1 className="mb-12">{getLocalizedText(aboutData, 'title', language)}</h1>
           </motion.div>
 
@@ -79,7 +79,7 @@ const About: React.FC = () => {
       <section className="section-padding bg-white border-t border-soft-200">
         <div className="container-max">
           <motion.div {...fade(0)}>
-            <div className="section-label">02 · {language === 'ja' ? '価値観' : 'Values'}</div>
+            <div className="section-label">{language === 'ja' ? '価値観' : 'Values'}</div>
             <h2 className="mb-12">
               {language === 'ja' ? 'プロフェッショナルな価値観' : 'Professional Values'}
             </h2>
@@ -112,7 +112,7 @@ const About: React.FC = () => {
       <section className="section-padding border-t border-soft-200">
         <div className="container-max">
           <motion.div {...fade(0)}>
-            <div className="section-label">03 · {language === 'ja' ? 'ハイライト' : 'Highlights'}</div>
+            <div className="section-label">{language === 'ja' ? 'ハイライト' : 'Highlights'}</div>
             <h2 className="mb-12">
               {language === 'ja' ? '個人的なハイライト' : 'Personal Highlights'}
             </h2>

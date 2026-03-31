@@ -45,32 +45,24 @@ function App() {
         <Navigation />
         
         <main>
-          <section id="home">
-            <Home />
-          </section>
           <section id="about">
+            <Home />
             <About />
+            <Testimonials />
           </section>
           <section id="experience">
             <Experience />
+            <Achievements />
           </section>
           <section id="education">
             <Education />
-          </section>
-          <section id="specializations">
-            <Specializations />
           </section>
           <section id="projects">
             <Projects />
           </section>
           <section id="skills">
             <Skills />
-          </section>
-          <section id="achievements">
-            <Achievements />
-          </section>
-          <section id="testimonials">
-            <Testimonials />
+            <Specializations />
           </section>
           <section id="contact">
             <Contact />

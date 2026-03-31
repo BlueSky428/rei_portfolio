@@ -6,14 +6,14 @@ import { useTheme } from '../contexts/ThemeContext'
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen]       = useState(false)
   const [scrolled, setScrolled]   = useState(false)
-  const [activeSection, setActiveSection] = useState('home')
+  const [activeSection, setActiveSection] = useState('about')
   const { language, setLanguage } = useLanguage()
   const { theme, toggleTheme }    = useTheme()
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 60)
-      const sections = ['home','about','experience','education','specializations','projects','skills','achievements','testimonials','blog','gallery','contact']
+      const sections = ['about', 'experience', 'education', 'projects', 'skills', 'contact']
       const offset    = window.scrollY + 120
       for (const s of sections) {
         const el = document.getElementById(s)
@@ -40,7 +40,7 @@ const Navigation: React.FC = () => {
     setIsOpen(false)
   }
 
-  const onHero = activeSection === 'home'
+  const onHero = activeSection === 'about'
   // White text only when hero is dark (dark mode). Light mode hero is light-coloured.
   const heroIsDark  = onHero && !scrolled && theme === 'dark'
 
@@ -58,7 +58,7 @@ const Navigation: React.FC = () => {
         <div className="flex items-center justify-between h-14">
 
           {/* ── Logo (matches favicon: R on ocean/beni) ────────── */}
-          <button onClick={() => go('home')} className="flex items-center gap-3 group" aria-label="Top">
+          <button onClick={() => go('about')} className="flex items-center gap-3 group" aria-label="Top">
             <span
               className={`w-7 h-7 flex items-center justify-center rounded-md text-xs font-mono font-bold transition-colors duration-200 ${
                 heroIsDark
@@ -142,8 +142,7 @@ const Navigation: React.FC = () => {
       {isOpen && (
         <div className="md:hidden bg-soft-50 border-t border-soft-200">
           <div className="max-w-6xl mx-auto px-4">
-            {/* Section number prefix in mobile */}
-            {navItems.map((item, i) => {
+            {navItems.map((item) => {
               const active = activeSection === item.id
               return (
                 <button
@@ -153,9 +152,6 @@ const Navigation: React.FC = () => {
                     active ? 'text-soft-900' : 'text-soft-500 hover:text-soft-900'
                   }`}
                 >
-                  <span className="font-mono text-xs text-soft-300 w-5 text-right flex-shrink-0">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
                   <span className={`text-xs font-sans font-medium tracking-widest uppercase ${
                     active ? 'text-soft-900' : ''
                   }`}>

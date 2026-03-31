@@ -26,7 +26,7 @@ const Achievements: React.FC = () => {
       <section className="section-padding">
         <div className="container-max">
           <motion.div {...fade(0)}>
-            <div className="section-label">06 · {language === 'ja' ? '実績' : 'Achievements'}</div>
+            <div className="section-label">{language === 'ja' ? '実績' : 'Achievements'}</div>
             <h1 className="mb-3">{getLocalizedText(ach, 'title', language)}</h1>
             <p className="font-sans text-soft-500">
               {language === 'ja' ? 'プロフェッショナルな成果と認定の軌跡' : 'A journey of professional achievements and certifications'}

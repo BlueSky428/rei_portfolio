@@ -142,9 +142,6 @@ const Home: React.FC = () => {
 
                 {/* Index badge */}
                 <motion.div {...fade(0.25)} className="mb-6 flex items-center gap-3">
-                  <span className="font-mono" style={{ fontSize: '0.6rem', letterSpacing: '0.3em', color: c.text5 }}>
-                    001
-                  </span>
                   <span className="h-px w-6" style={{ background: c.lineH }} />
                   <span className="font-mono uppercase" style={{ fontSize: '0.6rem', letterSpacing: '0.22em', color: c.text5 }}>
                     {language === 'ja' ? 'プロフィール' : 'Profile'}
