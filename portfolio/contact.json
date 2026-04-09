@@ -181,13 +181,15 @@
     }
   },
   "contact_info": {
-    "phone": {
+    "whatsapp": {
       "number": "+81 70-9358-3639",
       "japanese_number": "+81 70-9358-3639",
-      "label": "Phone",
-      "japanese_label": "電話",
-      "description": "Voice or SMS during business hours (JST)",
-      "japanese_description": "営業時間内のお電話・SMS（日本時間）"
+      "url": "https://wa.me/817093583639",
+      "japanese_url": "https://wa.me/817093583639",
+      "label": "WhatsApp",
+      "japanese_label": "WhatsApp",
+      "description": "Message me on WhatsApp (business hours JST)",
+      "japanese_description": "WhatsAppでご連絡ください（営業時間・日本時間）"
     },
     "email": {
       "address": "rei.fujimoto.jpn@gmail.com",
